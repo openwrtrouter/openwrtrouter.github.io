@@ -1,0 +1,84 @@
+Package: ddns-scripts
+Version: 2.7.8-1
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14651
+Filename: ddns-scripts_2.7.8-1_all.ipk
+Size: 15714
+SHA256sum: e394f8bbec380ca9c4dd9ff263ced874e705df6e37dca107a742a0b48ecf7969
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+SourceName: libpcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mipsel_24kc
+Installed-Size: 80231
+Filename: libpcre_8.41-2_mipsel_24kc.ipk
+Size: 81103
+SHA256sum: 8f6c3205ae75ac8ace056a31ec890565e94424e769af6e9df58d6d6c0659c502
+Description:  A Perl Compatible Regular Expression library
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc1.8.2, libuuid
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: mipsel_24kc
+Installed-Size: 46934
+Filename: miniupnpd_2.0.20170421-2_mipsel_24kc.ipk
+Size: 47766
+SHA256sum: 029cc028eeab43525691ad92d3fb78d44a086f4516b18e4b061362b12311ecf0
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2019-06-06-4574e6e8-1
+Depends: libc, libubox20170601, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16061
+Filename: nlbwmon_2019-06-06-4574e6e8-1_mipsel_24kc.ipk
+Size: 16895
+SHA256sum: 0088129c24f3754799981bfb988423670bad84c75b4830c3f385a6df61e43afd
+Description:  LEDE Traffic Usage Monitor
+
+Package: wget
+Version: 1.20.3-2
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mipsel_24kc
+Installed-Size: 182437
+Filename: wget_1.20.3-2_mipsel_24kc.ipk
+Size: 183317
+SHA256sum: ec82b0f6a0b499f1e5ed29d282ed570a43147facd5b32d586c141d341f716b85
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
