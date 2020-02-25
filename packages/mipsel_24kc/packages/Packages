@@ -3,10 +3,10 @@ Version: 2.7.8-1
 License: GPL-2.0
 Section: net
 Architecture: all
-Installed-Size: 14651
+Installed-Size: 14652
 Filename: ddns-scripts_2.7.8-1_all.ipk
-Size: 15714
-SHA256sum: e394f8bbec380ca9c4dd9ff263ced874e705df6e37dca107a742a0b48ecf7969
+Size: 15717
+SHA256sum: 00bb7665143adb654ef2acf68504238bf54f4d9b4dc721e925015f3859de1be5
 Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
 
 Package: libpcre
@@ -15,10 +15,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 80231
+Installed-Size: 80229
 Filename: libpcre_8.41-2_mipsel_24kc.ipk
-Size: 81103
-SHA256sum: 8f6c3205ae75ac8ace056a31ec890565e94424e769af6e9df58d6d6c0659c502
+Size: 81109
+SHA256sum: 5274a59bd1c17653f4ae9ee361979f877f903a02b9de54c550f8fce556e79d7d
 Description:  A Perl Compatible Regular Expression library
 
 Package: miniupnpd
@@ -27,10 +27,10 @@ Depends: libc, iptables, libip4tc1.8.2, libuuid
 License: BSD-3-Clause
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 46934
+Installed-Size: 46936
 Filename: miniupnpd_2.0.20170421-2_mipsel_24kc.ipk
-Size: 47766
-SHA256sum: 029cc028eeab43525691ad92d3fb78d44a086f4516b18e4b061362b12311ecf0
+Size: 47774
+SHA256sum: 55b23c6282d1ea1e88a1d6640bdffb2bbc6ac8bcbc1fdc5ae4b82a4bf9a57668
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: nlbwmon
@@ -39,10 +39,10 @@ Depends: libc, libubox20170601, libnl-tiny, zlib, kmod-nf-conntrack-netlink
 License: ISC
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 16061
+Installed-Size: 16068
 Filename: nlbwmon_2019-06-06-4574e6e8-1_mipsel_24kc.ipk
-Size: 16895
-SHA256sum: 0088129c24f3754799981bfb988423670bad84c75b4830c3f385a6df61e43afd
+Size: 16900
+SHA256sum: 8da51988a06c6fc7497bbbb3e592fb161e5cff491c5cf1ae3e60be946a25343c
 Description:  LEDE Traffic Usage Monitor
 
 Package: wget
@@ -53,10 +53,10 @@ Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
 License: GPL-3.0-or-later
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 182437
+Installed-Size: 182435
 Filename: wget_1.20.3-2_mipsel_24kc.ipk
 Size: 183317
-SHA256sum: ec82b0f6a0b499f1e5ed29d282ed570a43147facd5b32d586c141d341f716b85
+SHA256sum: 6cfc4e31094c938ec0665255fe5387dc38590f0793e25f880ccc2ea0ecb3a5ac
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
