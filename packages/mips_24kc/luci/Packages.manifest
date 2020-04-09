@@ -1,0 +1,194 @@
+Package: luci-app-firewall
+Version: git-20.088.29068-cebe120-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+SourceName: luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10093
+Filename: luci-app-firewall_git-20.088.29068-cebe120-1_all.ipk
+Size: 10851
+SHA256sum: fb452175d7d17445f3b289cb6ec3ba527fdaf0b2da2acf3621b4efac17fded28
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-upnp
+Version: git-20.088.29068-cebe120-1
+Depends: libc, miniupnpd
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 3438
+Filename: luci-app-upnp_git-20.088.29068-cebe120-1_all.ipk
+Size: 4255
+SHA256sum: b79afe66293d6add82276b1edaafbea3fc5f8022dbc8c9085213bac2cec4582c
+Description:  Universal Plug & Play configuration module
+
+Package: luci-base
+Version: git-20.088.29068-cebe120-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+Source: feeds/luci/modules/luci-base
+SourceName: luci-base
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 108769
+Filename: luci-base_git-20.088.29068-cebe120-1_mips_24kc.ipk
+Size: 109792
+SHA256sum: 20db41edc70717c6ea27e3f14bf93db592abc7f033044c54df29013c9eda514d
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-cn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 29389
+Filename: luci-i18n-base-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 30269
+SHA256sum: d5a03e6a1f0bc87e27a62fc19eaed2b49cfdcb01e428f51489438a974e7c5020
+Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+SourceName: luci-i18n-firewall-zh-cn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4642
+Filename: luci-i18n-firewall-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 5479
+SHA256sum: a72819abba0a01d09a301db247e1ec2380be6d2b8eb9749f8d8c8272b7e8b24e
+Description:  Translation for luci-app-firewall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-app-upnp
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-i18n-upnp-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1608
+Filename: luci-i18n-upnp-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 2461
+SHA256sum: 2d431512d064574de3983b67f5cb214984f2fa71e147f71360d397a538ed6671
+Description:  Translation for luci-app-upnp - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-ip
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+SourceName: luci-lib-ip
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 9122
+Filename: luci-lib-ip_git-20.088.29068-cebe120-1_mips_24kc.ipk
+Size: 9861
+SHA256sum: 9df994f3fc0b80824ba767258cb3476818d5a2d36c7fdb7793aa786310496125
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5, libjson-c
+Source: feeds/luci/libs/luci-lib-jsonc
+SourceName: luci-lib-jsonc
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 4001
+Filename: luci-lib-jsonc_git-20.088.29068-cebe120-1_mips_24kc.ipk
+Size: 4697
+SHA256sum: d2a97ad3604f6b2261b8eb0266aa0d243547c8c0f2cbd5b571dfc9f05775d7bc
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 28292
+Filename: luci-lib-nixio_git-20.088.29068-cebe120-1_mips_24kc.ipk
+Size: 28645
+SHA256sum: eb7d8bc19972d62f2ff1cb6631c1f7a053a8465d048444215ddf5e0eb91f2f10
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 74199
+Filename: luci-mod-admin-full_git-20.088.29068-cebe120-1_mips_24kc.ipk
+Size: 75127
+SHA256sum: 4fe63c0ea08240af897f10b84fa9701a81577b44fcd0dff03151b8427abd3b8e
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-20.088.29068-cebe120-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+SourceName: luci-proto-ppp
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2921
+Filename: luci-proto-ppp_git-20.088.29068-cebe120-1_all.ipk
+Size: 3651
+SHA256sum: 3c04666d7933771477b891c511b1e85e621b95e63a84bc7330fa4eeb22ecadd5
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-20.088.29068-cebe120-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-bootstrap
+SourceName: luci-theme-bootstrap
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 13676
+Filename: luci-theme-bootstrap_git-20.088.29068-cebe120-1_all.ipk
+Size: 14461
+SHA256sum: 67ac77373d54d6847e190428887a30dd09a6e1949d88011a1c8ddf3bedc7703d
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-20.088.29068-cebe120-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, rpcd-mod-rrdns
+Source: feeds/luci/collections/luci
+SourceName: luci
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-20.088.29068-cebe120-1_all.ipk
+Size: 907
+SHA256sum: ff0b6b5271475b7818455050fdf1f37d13fac86e452a799320eee136238d81b6
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20170601, libubus20191227
+Source: feeds/luci/libs/rpcd-mod-rrdns
+SourceName: rpcd-mod-rrdns
+License: Apache-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 3752
+Filename: rpcd-mod-rrdns_20170710_mips_24kc.ipk
+Size: 4560
+SHA256sum: 5006ac5cda3fafaeda919f0c4711a2c304856fe2fdc0a552a65df5ed279b2680
+Description:  Provides rapid mass reverse DNS lookup functionality.
+

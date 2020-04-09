@@ -1,0 +1,68 @@
+Package: ddns-scripts
+Version: 2.7.8-3
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14711
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15779
+SHA256sum: 6a7784cf4a7755a8a70b35221fa191715bb2698454a453c58e3c94e9c29501c2
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+SourceName: libpcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mips_24kc
+Installed-Size: 80421
+Filename: libpcre_8.41-2_mips_24kc.ipk
+Size: 81293
+SHA256sum: 4b9062349d19f3cc53b3e876bcc03d950449f9e4b8019cde712ff38c4ee22470
+Description:  A Perl Compatible Regular Expression library
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: mips_24kc
+Installed-Size: 47219
+Filename: miniupnpd_2.0.20170421-3_mips_24kc.ipk
+Size: 48073
+SHA256sum: 7d2e0a872d3f5b0cf3840763fd104cb4554f9b1fd4ee380f4f7040a1cc1f7c6c
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: wget
+Version: 1.20.3-3
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 182650
+Filename: wget_1.20.3-3_mips_24kc.ipk
+Size: 183192
+SHA256sum: e648e103cff988677453a7c9ac8b3451152c2e02645b259401f7d97c3d38ce02
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
