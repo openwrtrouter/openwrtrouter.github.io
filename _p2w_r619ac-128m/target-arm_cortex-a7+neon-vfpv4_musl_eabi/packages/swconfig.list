@@ -1,0 +1,7 @@
+./
+./host
+./usr
+./usr/lib
+./usr/lib/libsw.a
+./usr/include
+./usr/include/swlib.h

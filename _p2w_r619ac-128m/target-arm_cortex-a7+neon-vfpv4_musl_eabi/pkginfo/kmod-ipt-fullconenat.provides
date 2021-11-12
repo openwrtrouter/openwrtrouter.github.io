@@ -1,0 +1,7 @@
+ip_tables.ko
+nf_conntrack.ko
+nf_defrag_ipv4.ko
+nf_defrag_ipv6.ko
+nf_nat.ko
+x_tables.ko
+xt_FULLCONENAT.ko

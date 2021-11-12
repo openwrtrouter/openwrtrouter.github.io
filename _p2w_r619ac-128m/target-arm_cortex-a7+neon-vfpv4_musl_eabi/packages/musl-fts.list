@@ -1,0 +1,11 @@
+./
+./host
+./usr
+./usr/lib
+./usr/lib/libfts.so
+./usr/lib/pkgconfig
+./usr/lib/pkgconfig/musl-fts.pc
+./usr/lib/libfts.so.0
+./usr/lib/libfts.so.0.0.0
+./usr/include
+./usr/include/fts.h
