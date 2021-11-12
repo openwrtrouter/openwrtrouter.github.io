@@ -72,7 +72,7 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo 
+        echo "/etc/ssl/certs/ca-certificates.crt"
         ;;
 
     --cc)
@@ -84,13 +84,13 @@ while test $# -gt 0; do
         ;;
 
     --feature|--features)
-        for feature in IPv6 Largefile ""; do
+        for feature in HSTS HTTPS-proxy IPv6 Largefile SSL alt-svc ""; do
             test -n "$feature" && echo "$feature"
         done
         ;;
 
     --protocols)
-        for protocol in MQTT; do
+        for protocol in FILE FTP FTPS HTTP HTTPS MQTT; do
             echo "$protocol"
         done
         ;;
@@ -161,18 +161,18 @@ while test $# -gt 0; do
            CURLLIBDIR=""
         fi
         if test "Xyes" = "Xno"; then
-          echo ${CURLLIBDIR}-lcurl 
+          echo ${CURLLIBDIR}-lcurl -lssl -lcrypto -lssl -lcrypto
         else
           echo ${CURLLIBDIR}-lcurl
         fi
         ;;
     --ssl-backends)
-        echo ""
+        echo "OpenSSL"
         ;;
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo ${exec_prefix}/lib/libcurl.a -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro -Wl,--gc-sections 
+          echo ${exec_prefix}/lib/libcurl.a -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro -Wl,--gc-sections -L/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -lssl -lcrypto -lssl -lcrypto
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
@@ -180,7 +180,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--target=arm-openwrt-linux' '--host=arm-openwrt-linux' '--build=x86_64-pc-linux-gnu' '--program-prefix=' '--program-suffix=' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--libexecdir=/usr/lib' '--sysconfdir=/etc' '--datadir=/usr/share' '--localstatedir=/var' '--mandir=/usr/man' '--infodir=/usr/info' '--disable-nls' '--disable-debug' '--disable-ares' '--enable-shared' '--enable-static' '--disable-manual' '--without-nss' '--without-librtmp' '--without-libidn' '--without-ca-path' '--without-libpsl' '--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt' '--enable-ipv6' '--without-wolfssl' '--without-gnutls' '--without-ssl' '--without-mbedtls' '--without-libidn2' '--without-libssh2' '--without-zlib' '--without-zstd' '--without-nghttp2' '--disable-dict' '--disable-file' '--disable-ftp' '--disable-gopher' '--disable-http' '--disable-imap' '--disable-ldap' '--disable-ldaps' '--disable-pop3' '--disable-rtsp' '--disable-smb' '--disable-smtp' '--disable-telnet' '--disable-tftp' '--disable-cookies' '--disable-crypto-auth' '--disable-libcurl-option' '--disable-proxy' '--disable-threaded-resolver' '--disable-tls-srp' '--disable-unix-sockets' '--disable-verbose' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-openwrt-linux' 'target_alias=arm-openwrt-linux' 'CC=arm-openwrt-linux-muslgnueabi-gcc' 'CFLAGS=-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/curl-7.79.1=curl-7.79.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections ' 'LDFLAGS=-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro -Wl,--gc-sections ' 'CPPFLAGS=-I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/include -I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify -I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include -DCURL_DISABLE_NTLM '"
+        echo " '--target=arm-openwrt-linux' '--host=arm-openwrt-linux' '--build=x86_64-pc-linux-gnu' '--program-prefix=' '--program-suffix=' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--libexecdir=/usr/lib' '--sysconfdir=/etc' '--datadir=/usr/share' '--localstatedir=/var' '--mandir=/usr/man' '--infodir=/usr/info' '--disable-nls' '--disable-debug' '--disable-ares' '--enable-shared' '--enable-static' '--disable-manual' '--without-nss' '--without-librtmp' '--without-libidn' '--without-ca-path' '--without-libpsl' '--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt' '--enable-ipv6' '--without-wolfssl' '--without-gnutls' '--with-ssl=/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr' '--without-mbedtls' '--without-libidn2' '--without-libssh2' '--without-zlib' '--without-zstd' '--without-nghttp2' '--disable-dict' '--enable-file' '--enable-ftp' '--disable-gopher' '--enable-http' '--disable-imap' '--disable-ldap' '--disable-ldaps' '--disable-pop3' '--disable-rtsp' '--disable-smb' '--disable-smtp' '--disable-telnet' '--disable-tftp' '--enable-cookies' '--disable-crypto-auth' '--disable-libcurl-option' '--enable-proxy' '--disable-threaded-resolver' '--disable-tls-srp' '--disable-unix-sockets' '--disable-verbose' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-openwrt-linux' 'target_alias=arm-openwrt-linux' 'CC=arm-openwrt-linux-muslgnueabi-gcc' 'CFLAGS=-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/curl-7.79.1=curl-7.79.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DPIC -fpic -ffunction-sections -fdata-sections ' 'LDFLAGS=-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro -Wl,--gc-sections ' 'CPPFLAGS=-I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/include -I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify -I/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include -DCURL_DISABLE_NTLM '"
         ;;
 
     *)

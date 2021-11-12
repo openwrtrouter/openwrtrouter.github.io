@@ -1,0 +1,4 @@
+scsi_mod.ko
+sd_mod.ko
+uas.ko
+usb-storage.ko

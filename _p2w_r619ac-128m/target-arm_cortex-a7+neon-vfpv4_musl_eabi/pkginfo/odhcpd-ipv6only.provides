@@ -1,0 +1,6 @@
+libc.so
+libgcc_s.so.1
+libnl-tiny.so
+libubox.so.20210516
+libubus.so.20210603
+libuci.so

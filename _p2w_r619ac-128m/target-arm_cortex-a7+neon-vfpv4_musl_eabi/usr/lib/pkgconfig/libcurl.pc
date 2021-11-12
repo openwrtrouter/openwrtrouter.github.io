@@ -27,13 +27,13 @@ prefix=/usr
 exec_prefix=/usr
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
-supported_protocols="MQTT"
-supported_features="IPv6 Largefile"
+supported_protocols="FILE FTP FTPS HTTP HTTPS MQTT"
+supported_features="HSTS HTTPS-proxy IPv6 Largefile SSL alt-svc"
 
 Name: libcurl
 URL: https://curl.se/
 Description: Library to transfer files with ftp, http, etc.
 Version: 7.79.1
 Libs: -L${libdir} -lcurl 
-Libs.private: 
+Libs.private: -lssl -lcrypto -lssl -lcrypto
 Cflags: -I${includedir} 

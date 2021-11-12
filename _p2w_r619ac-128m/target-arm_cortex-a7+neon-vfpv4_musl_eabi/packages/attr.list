@@ -1,0 +1,15 @@
+./
+./host
+./usr
+./usr/lib
+./usr/lib/libattr.a
+./usr/lib/libattr.so
+./usr/lib/pkgconfig
+./usr/lib/pkgconfig/libattr.pc
+./usr/lib/libattr.so.1.1.2501
+./usr/lib/libattr.so.1
+./usr/include
+./usr/include/attr
+./usr/include/attr/error_context.h
+./usr/include/attr/attributes.h
+./usr/include/attr/libattr.h
