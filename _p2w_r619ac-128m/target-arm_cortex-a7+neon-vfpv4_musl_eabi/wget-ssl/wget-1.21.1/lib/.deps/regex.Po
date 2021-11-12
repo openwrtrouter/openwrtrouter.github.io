@@ -1,0 +1,213 @@
+regex.o: regex.c \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdc-predef.h \
+ libc-config.h ../src/config.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/errno.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/features.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/glibc-types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/cdefs.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/errno.h \
+ cdefs.h limits.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/limits.h \
+ regex.h sys/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/alltypes.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/endian.h \
+ stdint.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdint.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/stdint.h \
+ sys/select.h sys/time.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/time.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/select.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/select.h \
+ signal.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/signal.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/signal.h \
+ regex_internal.h ctype.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/ctype.h \
+ stdio.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdio.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdio.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/fortify-headers.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdarg.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stddef.h \
+ stdlib.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdlib.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdlib.h \
+ alloca.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h \
+ unistd.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/posix.h \
+ getopt-cdefs.h getopt-pfx-core.h getopt-core.h string.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/string.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/string.h \
+ strings.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/strings.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/strings.h \
+ langinfo.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/langinfo.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/nl_types.h \
+ locale.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/locale.h \
+ setlocale_null.h arg-nonnull.h wchar.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/wchar.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/wchar.h \
+ wctype.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/wctype.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdbool.h \
+ dynarray.h malloc/dynarray.h intprops.h verify.h regex_internal.c \
+ regcomp.c regexec.c malloc/dynarray-skeleton.c
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdc-predef.h:
+
+libc-config.h:
+
+../src/config.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/errno.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/features.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/glibc-types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/cdefs.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/errno.h:
+
+cdefs.h:
+
+limits.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/limits.h:
+
+regex.h:
+
+sys/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/alltypes.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/endian.h:
+
+stdint.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdint.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/stdint.h:
+
+sys/select.h:
+
+sys/time.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/time.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/select.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/select.h:
+
+signal.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/signal.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/signal.h:
+
+regex_internal.h:
+
+ctype.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/ctype.h:
+
+stdio.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdio.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdio.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/fortify-headers.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdarg.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stddef.h:
+
+stdlib.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdlib.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdlib.h:
+
+alloca.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h:
+
+unistd.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/unistd.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/unistd.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/posix.h:
+
+getopt-cdefs.h:
+
+getopt-pfx-core.h:
+
+getopt-core.h:
+
+string.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/string.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/string.h:
+
+strings.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/strings.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/strings.h:
+
+langinfo.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/langinfo.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/nl_types.h:
+
+locale.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/locale.h:
+
+setlocale_null.h:
+
+arg-nonnull.h:
+
+wchar.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/wchar.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/wchar.h:
+
+wctype.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/wctype.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdbool.h:
+
+dynarray.h:
+
+malloc/dynarray.h:
+
+intprops.h:
+
+verify.h:
+
+regex_internal.c:
+
+regcomp.c:
+
+regexec.c:
+
+malloc/dynarray-skeleton.c:

@@ -1,0 +1,1 @@
+cmd_/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/fixdep-in.o :=  ld -r -o /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/fixdep-in.o  /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/fixdep.o

@@ -1,0 +1,14 @@
+Package: kmod-usb-storage-uas
+Version: 5.4.158-1
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01), kmod-usb-storage
+Source: package/kernel/linux
+SourceName: kmod-usb-storage-uas
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9187
+Description:  Say Y here if you want to include support for
+ USB Attached SCSI (UAS/UASP), a higher
+ performance protocol available on many
+ newer USB 3.0 storage devices

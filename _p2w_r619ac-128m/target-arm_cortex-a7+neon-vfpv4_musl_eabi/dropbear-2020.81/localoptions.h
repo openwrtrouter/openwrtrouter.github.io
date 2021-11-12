@@ -1,0 +1,11 @@
+#define DEFAULT_PATH "/usr/sbin:/usr/bin:/sbin:/bin"
+#define INETD_MODE 0
+#define DROPBEAR_CLI_NETCAT 0
+#define DROPBEAR_DSS 0
+#define DO_MOTD 0
+#define DROPBEAR_CURVE25519 1
+#define DROPBEAR_ED25519 1
+#define DROPBEAR_CHACHA20POLY1305 1
+#define DROPBEAR_ECDSA 0
+#define DROPBEAR_ECDH 0
+#define DROPBEAR_CLI_ASKPASS_HELPER 0

@@ -1,0 +1,111 @@
+Determining if the arc4random_buf exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_bb298 && [1/2] Building C object CMakeFiles/cmTC_bb298.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_bb298.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/host/bin/gcc   -O2 -I/workdir/openwrt/staging_dir/host/include -I/workdir/openwrt/staging_dir/hostpkg/include -I/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/host/include -o CMakeFiles/cmTC_bb298.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'arc4random_buf' undeclared (first use in this function)
+    8 |   return ((int*)(&arc4random_buf))[argc];
+      |                   ^~~~~~~~~~~~~~
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_edaf8 && [1/2] Building C object CMakeFiles/cmTC_edaf8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_edaf8.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/host/bin/gcc   -O2 -I/workdir/openwrt/staging_dir/host/include -I/workdir/openwrt/staging_dir/hostpkg/include -I/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/host/include -o CMakeFiles/cmTC_edaf8.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'arc4random' undeclared (first use in this function); did you mean 'srandom'?
+    8 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the off_t exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b2e99 && [1/2] Building C object CMakeFiles/cmTC_b2e99.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b2e99.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/host/bin/gcc   -O2 -I/workdir/openwrt/staging_dir/host/include -I/workdir/openwrt/staging_dir/hostpkg/include -I/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/host/include -o CMakeFiles/cmTC_b2e99.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before 'off_t'
+    8 |   return ((int*)(&off_t))[argc];
+      |                   ^~~~~
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e0b7a && [1/2] Building C object CMakeFiles/cmTC_e0b7a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e0b7a.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/host/bin/gcc   -O2 -I/workdir/openwrt/staging_dir/host/include -I/workdir/openwrt/staging_dir/hostpkg/include -I/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/host/include -o CMakeFiles/cmTC_e0b7a.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before 'size_t'
+    8 |   return ((int*)(&size_t))[argc];
+      |                   ^~~~~~
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

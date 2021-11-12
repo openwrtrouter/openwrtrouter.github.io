@@ -1,0 +1,12 @@
+Package: UnblockNeteaseMusic
+Version: 0.27.0-beta.9-2021-11-04-50d25e51-1
+Depends: libc, node
+Source: package/lean/UnblockNeteaseMusic
+SourceName: UnblockNeteaseMusic
+License: LGPL-3.0-only
+Section: multimedia
+SourceDateEpoch: 1636203182
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 418466
+Description:  Revive Netease Cloud Music (NodeJS)

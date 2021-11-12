@@ -1,0 +1,13 @@
+Package: hostapd-common
+Version: 2021-05-22-b102f19b-26
+Depends: libc
+Source: package/network/services/hostapd
+SourceName: hostapd-common
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1635853139
+CPE-ID: cpe:/a:w1.fi:hostapd
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11651
+Description:  hostapd/wpa_supplicant common support files

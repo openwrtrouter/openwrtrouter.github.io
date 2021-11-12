@@ -1,0 +1,11 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/upnpc-shared.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/listdevices.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/libminiupnpc-shared.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/upnpc-static.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/miniupnpc-2.2.2/CMakeFiles/libminiupnpc-static.dir

@@ -1,0 +1,11 @@
+Package: kmod-usb-ehci
+Version: 5.4.158-1
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01), kmod-usb-core
+Source: package/kernel/linux
+SourceName: kmod-usb-ehci
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24459
+Description:  EHCI controller support

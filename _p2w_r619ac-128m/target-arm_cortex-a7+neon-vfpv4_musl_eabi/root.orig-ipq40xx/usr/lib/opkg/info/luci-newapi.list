@@ -1,0 +1,3 @@
+/etc/newapi/usr/lib/lua/luci/model/cbi/admin_network/wifi.lua
+/etc/uci-defaults/099-newapi-copy
+/etc/newapi/usr/lib/lua/luci/view/cbi/wireless_modefreq.htm

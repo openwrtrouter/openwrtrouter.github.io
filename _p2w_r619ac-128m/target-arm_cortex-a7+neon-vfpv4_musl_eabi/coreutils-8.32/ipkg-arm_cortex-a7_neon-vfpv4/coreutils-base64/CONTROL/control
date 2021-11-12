@@ -1,0 +1,15 @@
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1636706225
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18970
+Description:  Full version of standard GNU base64 utility.

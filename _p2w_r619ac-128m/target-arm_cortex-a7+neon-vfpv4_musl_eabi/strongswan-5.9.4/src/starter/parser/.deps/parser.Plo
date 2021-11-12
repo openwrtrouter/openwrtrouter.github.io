@@ -1,0 +1,428 @@
+parser/parser.lo: parser/parser.c \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdc-predef.h \
+ /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/strongswan-5.9.4/config.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdio.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdio.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/features.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/glibc-types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/cdefs.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/alltypes.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/fortify-headers.h \
+ ../../src/libstrongswan/utils/parser_helper.h \
+ ../../src/libstrongswan/utils/debug.h \
+ ../../src/libstrongswan/utils/printf_hook/printf_hook.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdlib.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdlib.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/alloca.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/limits.h \
+ ../../src/libstrongswan/utils/printf_hook/printf_hook_builtin.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdarg.h \
+ ../../src/libstrongswan/utils/utils.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/endian.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdint.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/stdint.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/select.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/select.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stddef.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/time.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/string.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/string.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/strings.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/strings.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/param.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/resource.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/resource.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/arpa/inet.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/netinet/in.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/inttypes.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/socket.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/socket.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/socket.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/../fortify-headers.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/netdb.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sched.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/poll.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/poll.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/poll.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/signal.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/signal.h \
+ ../../src/libstrongswan/utils/utils/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdbool.h \
+ ../../src/libstrongswan/utils/enum.h \
+ ../../src/libstrongswan/utils/utils/atomics.h \
+ ../../src/libstrongswan/utils/utils/align.h \
+ ../../src/libstrongswan/utils/utils/byteorder.h \
+ ../../src/libstrongswan/utils/utils/string.h \
+ ../../src/libstrongswan/utils/utils/memory.h \
+ ../../src/libstrongswan/utils/utils/strerror.h \
+ ../../src/libstrongswan/utils/utils/status.h \
+ ../../src/libstrongswan/utils/utils/object.h \
+ ../../src/libstrongswan/utils/utils/path.h \
+ ../../src/libstrongswan/utils/utils/time.h \
+ ../../src/libstrongswan/utils/utils/tty.h \
+ ../../src/libstrongswan/collections/array.h \
+ ../../src/libstrongswan/collections/enumerator.h \
+ ../../src/libstrongswan/bio/bio_writer.h \
+ ../../src/libstrongswan/library.h \
+ ../../src/libstrongswan/utils/printf_hook/printf_hook.h \
+ ../../src/libstrongswan/utils/utils.h \
+ ../../src/libstrongswan/networking/host_resolver.h \
+ ../../src/libstrongswan/networking/host.h \
+ ../../src/libstrongswan/utils/chunk.h \
+ ../../src/libstrongswan/utils/utils.h \
+ ../../src/libstrongswan/networking/streams/stream_manager.h \
+ ../../src/libstrongswan/networking/streams/stream_service.h \
+ ../../src/libstrongswan/processing/jobs/job.h \
+ ../../src/libstrongswan/networking/streams/stream.h \
+ ../../src/libstrongswan/processing/processor.h \
+ ../../src/libstrongswan/processing/scheduler.h \
+ ../../src/libstrongswan/processing/watcher.h \
+ ../../src/libstrongswan/crypto/crypto_factory.h \
+ ../../src/libstrongswan/crypto/crypters/crypter.h \
+ ../../src/libstrongswan/crypto/aead.h \
+ ../../src/libstrongswan/crypto/signers/signer.h \
+ ../../src/libstrongswan/crypto/iv/iv_gen.h \
+ ../../src/libstrongswan/crypto/hashers/hasher.h \
+ ../../src/libstrongswan/crypto/prfs/prf.h \
+ ../../src/libstrongswan/credentials/keys/public_key.h \
+ ../../src/libstrongswan/utils/identification.h \
+ ../../src/libstrongswan/credentials/cred_encoding.h \
+ ../../src/libstrongswan/crypto/rngs/rng.h \
+ ../../src/libstrongswan/crypto/xofs/xof.h \
+ ../../src/libstrongswan/crypto/drbgs/drbg.h \
+ ../../src/libstrongswan/crypto/nonce_gen.h \
+ ../../src/libstrongswan/crypto/diffie_hellman.h \
+ ../../src/libstrongswan/crypto/transform.h \
+ ../../src/libstrongswan/crypto/proposal/proposal_keywords.h \
+ ../../src/libstrongswan/fetcher/fetcher_manager.h \
+ ../../src/libstrongswan/fetcher/fetcher.h \
+ ../../src/libstrongswan/resolver/resolver_manager.h \
+ ../../src/libstrongswan/resolver/resolver.h \
+ ../../src/libstrongswan/resolver/resolver_response.h \
+ ../../src/libstrongswan/resolver/rr_set.h \
+ ../../src/libstrongswan/collections/linked_list.h \
+ ../../src/libstrongswan/resolver/rr.h \
+ ../../src/libstrongswan/database/database_factory.h \
+ ../../src/libstrongswan/database/database.h \
+ ../../src/libstrongswan/credentials/credential_factory.h \
+ ../../src/libstrongswan/credentials/builder.h \
+ ../../src/libstrongswan/credentials/credential_manager.h \
+ ../../src/libstrongswan/credentials/auth_cfg.h \
+ ../../src/libstrongswan/credentials/credential_set.h \
+ ../../src/libstrongswan/credentials/keys/shared_key.h \
+ ../../src/libstrongswan/credentials/certificates/certificate.h \
+ ../../src/libstrongswan/credentials/keys/signature_params.h \
+ ../../src/libstrongswan/credentials/keys/private_key.h \
+ ../../src/libstrongswan/credentials/cert_validator.h \
+ ../../src/libstrongswan/credentials/cred_encoding.h \
+ ../../src/libstrongswan/utils/chunk.h \
+ ../../src/libstrongswan/utils/capabilities.h \
+ ../../src/libstrongswan/utils/integrity_checker.h \
+ ../../src/libstrongswan/utils/leak_detective.h \
+ ../../src/libstrongswan/utils/backtrace.h \
+ ../../src/libstrongswan/plugins/plugin_loader.h \
+ ../../src/libstrongswan/settings/settings.h \
+ ../../src/libstrongswan/musl.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/posix.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/int-ll64.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/bitsperlong.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/bitsperlong.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/posix_types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/stddef.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/posix_types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/posix_types.h \
+ ../../src/libstrongswan/settings/settings_types.h parser/conf_parser.h \
+ ../../src/libstrongswan/collections/dictionary.h parser/parser.h
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdc-predef.h:
+
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/strongswan-5.9.4/config.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdio.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdio.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/features.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/glibc-types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/cdefs.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/alltypes.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/fortify-headers.h:
+
+../../src/libstrongswan/utils/parser_helper.h:
+
+../../src/libstrongswan/utils/debug.h:
+
+../../src/libstrongswan/utils/printf_hook/printf_hook.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/stdlib.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdlib.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/alloca.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/limits.h:
+
+../../src/libstrongswan/utils/printf_hook/printf_hook_builtin.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdarg.h:
+
+../../src/libstrongswan/utils/utils.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/endian.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdint.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/stdint.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/select.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/select.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stddef.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/time.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/string.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/string.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/strings.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/strings.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/param.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/resource.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/resource.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/limits.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/arpa/inet.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/netinet/in.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/inttypes.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/socket.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/socket.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/socket.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/sys/../fortify-headers.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/netdb.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sched.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/poll.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/poll.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/poll.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/signal.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/signal.h:
+
+../../src/libstrongswan/utils/utils/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdbool.h:
+
+../../src/libstrongswan/utils/enum.h:
+
+../../src/libstrongswan/utils/utils/atomics.h:
+
+../../src/libstrongswan/utils/utils/align.h:
+
+../../src/libstrongswan/utils/utils/byteorder.h:
+
+../../src/libstrongswan/utils/utils/string.h:
+
+../../src/libstrongswan/utils/utils/memory.h:
+
+../../src/libstrongswan/utils/utils/strerror.h:
+
+../../src/libstrongswan/utils/utils/status.h:
+
+../../src/libstrongswan/utils/utils/object.h:
+
+../../src/libstrongswan/utils/utils/path.h:
+
+../../src/libstrongswan/utils/utils/time.h:
+
+../../src/libstrongswan/utils/utils/tty.h:
+
+../../src/libstrongswan/collections/array.h:
+
+../../src/libstrongswan/collections/enumerator.h:
+
+../../src/libstrongswan/bio/bio_writer.h:
+
+../../src/libstrongswan/library.h:
+
+../../src/libstrongswan/utils/printf_hook/printf_hook.h:
+
+../../src/libstrongswan/utils/utils.h:
+
+../../src/libstrongswan/networking/host_resolver.h:
+
+../../src/libstrongswan/networking/host.h:
+
+../../src/libstrongswan/utils/chunk.h:
+
+../../src/libstrongswan/utils/utils.h:
+
+../../src/libstrongswan/networking/streams/stream_manager.h:
+
+../../src/libstrongswan/networking/streams/stream_service.h:
+
+../../src/libstrongswan/processing/jobs/job.h:
+
+../../src/libstrongswan/networking/streams/stream.h:
+
+../../src/libstrongswan/processing/processor.h:
+
+../../src/libstrongswan/processing/scheduler.h:
+
+../../src/libstrongswan/processing/watcher.h:
+
+../../src/libstrongswan/crypto/crypto_factory.h:
+
+../../src/libstrongswan/crypto/crypters/crypter.h:
+
+../../src/libstrongswan/crypto/aead.h:
+
+../../src/libstrongswan/crypto/signers/signer.h:
+
+../../src/libstrongswan/crypto/iv/iv_gen.h:
+
+../../src/libstrongswan/crypto/hashers/hasher.h:
+
+../../src/libstrongswan/crypto/prfs/prf.h:
+
+../../src/libstrongswan/credentials/keys/public_key.h:
+
+../../src/libstrongswan/utils/identification.h:
+
+../../src/libstrongswan/credentials/cred_encoding.h:
+
+../../src/libstrongswan/crypto/rngs/rng.h:
+
+../../src/libstrongswan/crypto/xofs/xof.h:
+
+../../src/libstrongswan/crypto/drbgs/drbg.h:
+
+../../src/libstrongswan/crypto/nonce_gen.h:
+
+../../src/libstrongswan/crypto/diffie_hellman.h:
+
+../../src/libstrongswan/crypto/transform.h:
+
+../../src/libstrongswan/crypto/proposal/proposal_keywords.h:
+
+../../src/libstrongswan/fetcher/fetcher_manager.h:
+
+../../src/libstrongswan/fetcher/fetcher.h:
+
+../../src/libstrongswan/resolver/resolver_manager.h:
+
+../../src/libstrongswan/resolver/resolver.h:
+
+../../src/libstrongswan/resolver/resolver_response.h:
+
+../../src/libstrongswan/resolver/rr_set.h:
+
+../../src/libstrongswan/collections/linked_list.h:
+
+../../src/libstrongswan/resolver/rr.h:
+
+../../src/libstrongswan/database/database_factory.h:
+
+../../src/libstrongswan/database/database.h:
+
+../../src/libstrongswan/credentials/credential_factory.h:
+
+../../src/libstrongswan/credentials/builder.h:
+
+../../src/libstrongswan/credentials/credential_manager.h:
+
+../../src/libstrongswan/credentials/auth_cfg.h:
+
+../../src/libstrongswan/credentials/credential_set.h:
+
+../../src/libstrongswan/credentials/keys/shared_key.h:
+
+../../src/libstrongswan/credentials/certificates/certificate.h:
+
+../../src/libstrongswan/credentials/keys/signature_params.h:
+
+../../src/libstrongswan/credentials/keys/private_key.h:
+
+../../src/libstrongswan/credentials/cert_validator.h:
+
+../../src/libstrongswan/credentials/cred_encoding.h:
+
+../../src/libstrongswan/utils/chunk.h:
+
+../../src/libstrongswan/utils/capabilities.h:
+
+../../src/libstrongswan/utils/integrity_checker.h:
+
+../../src/libstrongswan/utils/leak_detective.h:
+
+../../src/libstrongswan/utils/backtrace.h:
+
+../../src/libstrongswan/plugins/plugin_loader.h:
+
+../../src/libstrongswan/settings/settings.h:
+
+../../src/libstrongswan/musl.h:
+
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/unistd.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/unistd.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/posix.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/int-ll64.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/bitsperlong.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/bitsperlong.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/posix_types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/linux/stddef.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/posix_types.h:
+
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/posix_types.h:
+
+../../src/libstrongswan/settings/settings_types.h:
+
+parser/conf_parser.h:
+
+../../src/libstrongswan/collections/dictionary.h:
+
+parser/parser.h:

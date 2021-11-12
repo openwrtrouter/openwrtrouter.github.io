@@ -1,0 +1,18 @@
+Package: wsdd2
+Version: 2021-08-09-bcc51c3e-1
+Depends: libc
+Source: feeds/packages/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1636706225
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18647
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.

@@ -1,0 +1,10 @@
+Package: luci-app-ipsec-vpnd
+Version: 1.0-11
+Depends: libc, strongswan, strongswan-minimal, strongswan-mod-xauth-generic, strongswan-mod-kernel-libipsec
+Source: package/lean/luci-app-ipsec-vpnd
+SourceName: luci-app-ipsec-vpnd
+Section: luci
+SourceDateEpoch: 1626761293
+Architecture: all
+Installed-Size: 5401
+Description:  LuCI support for IPSec VPN Server (IKEv1 with PSK and Xauth)

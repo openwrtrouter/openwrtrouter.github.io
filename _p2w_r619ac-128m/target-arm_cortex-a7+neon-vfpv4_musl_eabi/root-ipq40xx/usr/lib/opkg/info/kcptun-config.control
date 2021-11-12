@@ -1,0 +1,13 @@
+Package: kcptun-config
+Version: 20210922-1
+Depends: libc
+Source: feeds/packages/net/kcptun
+SourceName: kcptun-config
+License: MIT
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1636706225
+Maintainer: Dengfeng Liu <liudf0716@gmail.com>, Chao Liu <expiron18@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1959
+Description:  Kcptun Config Scripts

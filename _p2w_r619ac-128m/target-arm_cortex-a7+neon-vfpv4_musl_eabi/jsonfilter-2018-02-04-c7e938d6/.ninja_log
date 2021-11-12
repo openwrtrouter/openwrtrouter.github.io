@@ -1,0 +1,12 @@
+# ninja log v5
+0	292	1636722236376870555	contrib/lemon	6e1b06e8a9bc3b23
+0	292	1636722236376870555	/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/jsonfilter-2018-02-04-c7e938d6/contrib/lemon	6e1b06e8a9bc3b23
+292	295	1636722236380870615	parser.c	f9ef2adb8096d80c
+292	295	1636722236380870615	/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/jsonfilter-2018-02-04-c7e938d6/parser.c	f9ef2adb8096d80c
+295	394	1636722236480872112	CMakeFiles/jsonpath.dir/main.c.o	7dd14acd0c086ed2
+395	433	1636722236520872711	CMakeFiles/jsonpath.dir/ast.c.o	bd29120564e775fa
+433	519	1636722236604873969	CMakeFiles/jsonpath.dir/lexer.c.o	8db7b49ab5fe22a
+519	584	1636722236668874927	CMakeFiles/jsonpath.dir/parser.c.o	dfb9a6404b18a3ca
+584	653	1636722236740876005	CMakeFiles/jsonpath.dir/matcher.c.o	7885bd20af1a46d2
+653	666	1636722236752876184	jsonpath	9191231d98e4b632
+0	5	0	CMakeFiles/install.util	574ae3705e70cd88

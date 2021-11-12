@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-guest-wifi) && rm -f /etc/uci-defaults/luci-guest-wifi
+	exit 0
+}

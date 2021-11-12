@@ -1,0 +1,1 @@
+cmd_applets/built-in.o :=  arm-openwrt-linux-muslgnueabi-gcc -nostdlib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro -flto=jobserver -fuse-linker-plugin -r -o applets/built-in.o applets/applets.o

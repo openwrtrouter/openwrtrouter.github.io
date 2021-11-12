@@ -1,0 +1,10 @@
+Package: luci-app-arpbind
+Version: 1-3
+Depends: libc, ip
+Source: package/lean/luci-app-arpbind
+SourceName: luci-app-arpbind
+Section: luci
+SourceDateEpoch: 1626401373
+Architecture: all
+Installed-Size: 1975
+Description:  ARP Binding

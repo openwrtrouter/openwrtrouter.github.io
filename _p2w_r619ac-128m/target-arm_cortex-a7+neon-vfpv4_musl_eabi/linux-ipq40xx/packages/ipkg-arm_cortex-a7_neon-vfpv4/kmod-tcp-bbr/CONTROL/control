@@ -1,0 +1,13 @@
+Package: kmod-tcp-bbr
+Version: 5.4.158-1
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01)
+Source: package/kernel/linux
+SourceName: kmod-tcp-bbr
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6018
+Description:  Kernel module for BBR (Bottleneck Bandwidth and RTT) TCP congestion
+ control. It requires the fq ("Fair Queue") pacing packet scheduler.
+ For kernel 4.13+, TCP internal pacing is implemented as fallback.

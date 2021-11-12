@@ -1,0 +1,28 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16//libbpf/feature/test-bpf.bin: \
+ test-bpf.c \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdc-predef.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/unistd-eabi.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/unistd-common.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/uapi/linux/bpf.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/linux/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdbool.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stddef.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/alltypes.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/stdint.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/stdint.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/int-ll64.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/uapi/asm/bitsperlong.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/asm-generic/bitsperlong.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/uapi/asm-generic/bitsperlong.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm/posix_types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/asm-generic/posix_types.h \
+ /workdir/build_dir/_p2w_r619ac-128m/target-arm_cortex-a7+neon-vfpv4_musl_eabi/bpftools-lib/bpftools-5.11.16/tools/include/uapi/linux/bpf_common.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/unistd.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/features.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/glibc-types.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/sys/cdefs.h \
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/bits/posix.h \
+ /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/fortify/fortify-headers.h

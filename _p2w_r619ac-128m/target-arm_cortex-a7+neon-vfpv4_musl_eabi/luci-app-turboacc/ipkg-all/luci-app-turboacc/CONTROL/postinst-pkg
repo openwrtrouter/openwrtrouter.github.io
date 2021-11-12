@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-turboacc) && rm -f /etc/uci-defaults/luci-turboacc
+	exit 0
+}

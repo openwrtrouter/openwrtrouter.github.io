@@ -1,0 +1,11 @@
+Package: luci-lib-nixio
+Version: git-21.280.14233-9b796b1-1
+Depends: libc, libopenssl1.1, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1633579033
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28901
+Description:  NIXIO POSIX library

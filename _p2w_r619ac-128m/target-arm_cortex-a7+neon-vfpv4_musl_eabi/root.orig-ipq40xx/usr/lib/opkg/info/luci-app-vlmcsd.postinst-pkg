@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-vlmcsd) && rm -f /etc/uci-defaults/luci-vlmcsd
+	exit 0
+}

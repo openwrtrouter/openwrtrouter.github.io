@@ -1,0 +1,11 @@
+Package: autosamba
+Version: 1-11
+Depends: libc, luci-app-samba, wsdd2
+Source: package/lean/autosamba
+SourceName: autosamba
+Section: opt
+SourceDateEpoch: 1581866873
+Maintainer: Lean
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1148
+Description:  A hotplug script to config Samba share automatically.

@@ -1,0 +1,8 @@
+# ninja log v5
+0	219	1636732328459151927	CMakeFiles/ttyd.dir/src/server.c.o	7024252942c9b5cc
+220	529	1636732328767156565	CMakeFiles/ttyd.dir/src/http.c.o	b3539b670f17509f
+529	739	1636732328979159758	CMakeFiles/ttyd.dir/src/protocol.c.o	f99e39b4e8eddcaf
+739	766	1636732329007160180	CMakeFiles/ttyd.dir/src/terminal.c.o	33a3a6af3a013e49
+766	815	1636732329055160903	CMakeFiles/ttyd.dir/src/utils.c.o	4f1a367f08937b9d
+815	860	1636732329099161565	ttyd	6d2825ee11713c97
+1	8	0	CMakeFiles/install.util	b29b4600e39f8269

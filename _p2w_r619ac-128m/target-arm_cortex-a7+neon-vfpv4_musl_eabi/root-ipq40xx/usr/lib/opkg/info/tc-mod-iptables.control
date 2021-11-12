@@ -1,0 +1,13 @@
+Package: tc-mod-iptables
+Version: 5.14.0-2
+Depends: libc, libxtables12
+Source: package/network/utils/iproute2
+SourceName: tc-mod-iptables
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1635864106
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3356
+Description:  Traffic control module - iptables action

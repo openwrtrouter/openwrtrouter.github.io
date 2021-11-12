@@ -1,0 +1,13 @@
+Package: kmod-usb-dwc3-qcom
+Version: 5.4.158-1
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01), kmod-usb-dwc3, kmod-usb-core
+Source: package/kernel/linux
+SourceName: kmod-usb-dwc3-qcom
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4661
+Description:  Some Qualcomm SoCs use DesignWare Core IP for USB2/3 functionality.
+ This driver also handles Qscratch wrapper which is needed for
+ peripheral mode support.

@@ -1,0 +1,14 @@
+Package: kcptun-client
+Version: 20210922-1
+Depends: libc, kcptun-config
+Source: feeds/packages/net/kcptun
+SourceName: kcptun-client
+License: MIT
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1636706225
+Maintainer: Dengfeng Liu <liudf0716@gmail.com>, Chao Liu <expiron18@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2228293
+Description:  kcptun is a Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
+ This package only contains kcptun client.

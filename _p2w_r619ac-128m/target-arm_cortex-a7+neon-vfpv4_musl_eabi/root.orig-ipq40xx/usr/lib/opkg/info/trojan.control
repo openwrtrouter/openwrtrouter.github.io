@@ -1,0 +1,12 @@
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: package/lean/helloworld/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1636636149
+Maintainer: GreaterFire
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 259491
+Description:  An unidentifiable mechanism that helps you bypass GFW

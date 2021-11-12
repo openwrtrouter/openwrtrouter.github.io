@@ -1,0 +1,11 @@
+Package: ipt2socks
+Version: 1.1.3-2
+Depends: libc, libpthread
+Source: package/lean/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1623666608
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30827
+Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5

@@ -1,0 +1,11 @@
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: package/lean/helloworld/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1636636149
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3216
+Description:  tcping measures the latency of a tcp-connection

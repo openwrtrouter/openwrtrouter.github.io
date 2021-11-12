@@ -1,0 +1,1 @@
+cmd_networking/lib.a := rm -f networking/lib.a; arm-openwrt-linux-muslgnueabi-gcc-ar  rcs networking/lib.a networking/brctl.o networking/ifconfig.o networking/interface.o networking/ip.o networking/nc.o networking/netmsg.o networking/netstat.o networking/nslookup.o networking/ntpd.o networking/ping.o networking/route.o networking/traceroute.o

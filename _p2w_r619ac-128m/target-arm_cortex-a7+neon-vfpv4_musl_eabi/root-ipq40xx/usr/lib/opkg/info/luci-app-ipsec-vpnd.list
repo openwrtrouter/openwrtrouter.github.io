@@ -1,0 +1,7 @@
+/etc/init.d/ipsec
+/usr/lib/lua/luci/view/ipsec/ipsec_status.htm
+/etc/uci-defaults/luci-ipsec
+/etc/config/ipsec
+/usr/lib/lua/luci/controller/ipsec-server.lua
+/usr/lib/lua/luci/model/cbi/ipsec-server/ipsec-server.lua
+/etc/ipsec.include

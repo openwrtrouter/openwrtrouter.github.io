@@ -1,0 +1,15 @@
+Package: tc-tiny
+Version: 5.14.0-2
+Depends: libc, kmod-sched-core, libxtables12, tc-mod-iptables
+Provides: tc
+Alternatives: 200:/sbin/tc:/usr/libexec/tc-tiny
+Source: package/network/utils/iproute2
+SourceName: tc-tiny
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1635864106
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 167277
+Description:  Traffic control utility (minimal)

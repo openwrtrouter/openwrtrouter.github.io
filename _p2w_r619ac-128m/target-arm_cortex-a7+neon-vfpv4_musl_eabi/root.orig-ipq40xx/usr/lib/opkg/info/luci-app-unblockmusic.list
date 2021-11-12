@@ -1,0 +1,13 @@
+/usr/share/UnblockNeteaseMusic/getmusicip.sh
+/etc/config/unblockmusic
+/etc/uci-defaults/luci-unblockmusic
+/usr/bin/UnblockNeteaseMusicCloud
+/usr/share/UnblockNeteaseMusic/update_core.sh
+/usr/share/UnblockNeteaseMusic/logcheck.sh
+/usr/lib/lua/luci/model/cbi/unblockmusic/unblockmusic_log.lua
+/usr/lib/lua/luci/model/cbi/unblockmusic/unblockmusic.lua
+/etc/hotplug.d/iface/099-unblockmusic
+/lib/upgrade/keep.d/unblockmusic
+/usr/lib/lua/luci/controller/unblockmusic.lua
+/usr/lib/lua/luci/view/unblockmusic/unblockmusic_status.htm
+/etc/init.d/unblockmusic

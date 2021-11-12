@@ -1,0 +1,10 @@
+Package: luci-app-samba
+Version: git-21.280.14233-9b796b1-1
+Depends: libc, samba36-server
+Source: feeds/luci/applications/luci-app-samba
+SourceName: luci-app-samba
+Section: luci
+SourceDateEpoch: 1633579033
+Architecture: all
+Installed-Size: 1498
+Description:  Network Shares - Samba SMB/CIFS module

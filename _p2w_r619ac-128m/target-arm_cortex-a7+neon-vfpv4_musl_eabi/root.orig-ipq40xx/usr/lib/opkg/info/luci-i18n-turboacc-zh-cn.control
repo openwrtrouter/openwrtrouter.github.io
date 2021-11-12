@@ -1,0 +1,12 @@
+Package: luci-i18n-turboacc-zh-cn
+Version: git-21.316.30950-49f9438-13
+Depends: libc, luci-app-turboacc
+Source: package/lean/luci-app-turboacc
+SourceName: luci-i18n-turboacc-zh-cn
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1633940103
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 1465
+Description:  Translation for luci-app-turboacc - 简体中文 (Simplified Chinese)

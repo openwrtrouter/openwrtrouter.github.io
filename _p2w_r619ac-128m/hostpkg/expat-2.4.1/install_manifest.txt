@@ -1,0 +1,13 @@
+/workdir/openwrt/staging_dir/hostpkg/include/expat_config.h
+/workdir/openwrt/staging_dir/hostpkg/lib/libexpat.so.1.8.1
+/workdir/openwrt/staging_dir/hostpkg/lib/libexpat.so.1
+/workdir/openwrt/staging_dir/hostpkg/lib/libexpat.so
+/workdir/openwrt/staging_dir/hostpkg/include/expat.h
+/workdir/openwrt/staging_dir/hostpkg/include/expat_external.h
+/workdir/openwrt/staging_dir/hostpkg/lib/pkgconfig/expat.pc
+/workdir/openwrt/staging_dir/hostpkg/share/doc/expat/AUTHORS
+/workdir/openwrt/staging_dir/hostpkg/share/doc/expat/changelog
+/workdir/openwrt/staging_dir/hostpkg/lib/cmake/expat-2.4.1/expat-config.cmake
+/workdir/openwrt/staging_dir/hostpkg/lib/cmake/expat-2.4.1/expat-config-version.cmake
+/workdir/openwrt/staging_dir/hostpkg/lib/cmake/expat-2.4.1/expat.cmake
+/workdir/openwrt/staging_dir/hostpkg/lib/cmake/expat-2.4.1/expat-release.cmake

@@ -1,0 +1,10 @@
+Package: luci-i18n-samba-zh-cn
+Version: git-21.280.14233-9b796b1-1
+Depends: libc, luci-app-samba
+Source: feeds/luci/applications/luci-app-samba
+SourceName: luci-i18n-samba-zh-cn
+Section: luci
+SourceDateEpoch: 1633579033
+Architecture: all
+Installed-Size: 1219
+Description:  Translation for luci-app-samba - 简体中文 (Simplified Chinese)

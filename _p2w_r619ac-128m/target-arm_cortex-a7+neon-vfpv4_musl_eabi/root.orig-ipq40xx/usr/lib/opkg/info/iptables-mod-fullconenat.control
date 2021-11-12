@@ -1,0 +1,13 @@
+Package: iptables-mod-fullconenat
+Version: 2019-10-21-0cf3b48f-3
+Depends: libc, iptables, kmod-ipt-fullconenat
+Source: package/lean/openwrt-fullconenat
+SourceName: iptables-mod-fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1623666608
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2130
+Description:  FULLCONENAT iptables extension

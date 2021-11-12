@@ -1,0 +1,20 @@
+# ninja log v5
+0	1771	1636732868735834638	CMakeFiles/trojan.dir/src/core/authenticator.cpp.o	86937cc0848af079
+1773	4887	1636732871851872503	CMakeFiles/trojan.dir/src/core/config.cpp.o	e917c178ada4c20e
+4888	7416	1636732874379902111	CMakeFiles/trojan.dir/src/core/log.cpp.o	aea404b76e673306
+7416	11222	1636732878183952002	CMakeFiles/trojan.dir/src/core/service.cpp.o	d95f694e516c6e8e
+11222	11358	1636732878331954046	CMakeFiles/trojan.dir/src/core/version.cpp.o	4dd8eb41ad75f43f
+11358	15275	1636732882236007962	CMakeFiles/trojan.dir/src/main.cpp.o	7934b0837fc86ec9
+15275	16188	1636732883160020723	CMakeFiles/trojan.dir/src/proto/socks5address.cpp.o	cf4d73e22d6385f7
+16188	17063	1636732884032032766	CMakeFiles/trojan.dir/src/proto/trojanrequest.cpp.o	3ec85a0f9293442e
+17063	17946	1636732884916044974	CMakeFiles/trojan.dir/src/proto/udppacket.cpp.o	b6df4768403fd372
+17946	22497	1636732889460112644	CMakeFiles/trojan.dir/src/session/clientsession.cpp.o	754f6c267174b2c6
+22497	26793	1636732893756176432	CMakeFiles/trojan.dir/src/session/forwardsession.cpp.o	24a623b67ccf896b
+26793	31156	1636732898120237541	CMakeFiles/trojan.dir/src/session/natsession.cpp.o	53a88fc1361aa13a
+31156	35882	1636732902848304676	CMakeFiles/trojan.dir/src/session/serversession.cpp.o	7e81ec654207be43
+35882	38391	1636732905356341241	CMakeFiles/trojan.dir/src/session/session.cpp.o	31c158b3e0a6e9de
+38391	42750	1636732909716404622	CMakeFiles/trojan.dir/src/session/udpforwardsession.cpp.o	f852c7527ffe7d20
+42750	42767	1636732909744405019	CMakeFiles/trojan.dir/src/ssl/ssldefaults.cpp.o	6033ff22dcc1383d
+42767	42950	1636732909924407572	CMakeFiles/trojan.dir/src/ssl/sslsession.cpp.o	c4e120d302fa69ff
+42950	57524	1636732924496619570	trojan	a71c03893d127d02
+5	18	0	CMakeFiles/install.util	bbeb64d61156d21b

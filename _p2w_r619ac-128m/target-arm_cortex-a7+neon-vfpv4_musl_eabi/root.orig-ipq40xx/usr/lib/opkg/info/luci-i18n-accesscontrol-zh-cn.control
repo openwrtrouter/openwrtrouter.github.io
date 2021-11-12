@@ -1,0 +1,10 @@
+Package: luci-i18n-accesscontrol-zh-cn
+Version: 1-11
+Depends: libc, luci-app-accesscontrol
+Source: package/lean/luci-app-accesscontrol
+SourceName: luci-i18n-accesscontrol-zh-cn
+Section: luci
+SourceDateEpoch: 1625061512
+Architecture: all
+Installed-Size: 908
+Description:  Translation for luci-app-accesscontrol - 简体中文 (Simplified Chinese)

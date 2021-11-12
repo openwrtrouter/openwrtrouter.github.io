@@ -1,0 +1,12 @@
+Package: kmod-fs-antfs
+Version: 5.4.158+2020-02-10-b41ba529-2
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01), kmod-nls-base
+Source: feeds/packages/kernel/antfs
+SourceName: kmod-fs-antfs
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: kernel
+SourceDateEpoch: 1636706225
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 136560
+Description:  Kernel module for NTFS Filesytem

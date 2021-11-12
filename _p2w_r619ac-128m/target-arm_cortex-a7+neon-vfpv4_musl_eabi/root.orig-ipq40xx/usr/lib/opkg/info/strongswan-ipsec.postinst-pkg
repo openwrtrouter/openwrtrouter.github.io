@@ -1,0 +1,7 @@
+#!/bin/sh
+
+[ -z "${IPKG_INSTROOT}" ] || exit 0
+
+opkg list-changed-conffiles | grep -qx /etc/ipsec.conf || {
+	rm -f /etc/ipsec.conf-opkg
+}

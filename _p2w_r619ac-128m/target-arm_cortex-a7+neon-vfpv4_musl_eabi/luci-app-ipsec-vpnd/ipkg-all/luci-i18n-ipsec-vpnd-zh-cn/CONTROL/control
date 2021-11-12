@@ -1,0 +1,10 @@
+Package: luci-i18n-ipsec-vpnd-zh-cn
+Version: 1.0-11
+Depends: libc, luci-app-ipsec-vpnd
+Source: package/lean/luci-app-ipsec-vpnd
+SourceName: luci-i18n-ipsec-vpnd-zh-cn
+Section: luci
+SourceDateEpoch: 1626761293
+Architecture: all
+Installed-Size: 854
+Description:  Translation for luci-app-ipsec-vpnd - 简体中文 (Simplified Chinese)

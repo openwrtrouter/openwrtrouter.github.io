@@ -1,0 +1,11 @@
+Package: autocore-arm
+Version: 1-41
+Depends: libc, ethtool
+Source: package/lean/autocore
+SourceName: autocore-arm
+Section: opt
+SourceDateEpoch: 1636625386
+Maintainer: CN_SZTL
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7671
+Description:  A luci autoconfig hotplug script.

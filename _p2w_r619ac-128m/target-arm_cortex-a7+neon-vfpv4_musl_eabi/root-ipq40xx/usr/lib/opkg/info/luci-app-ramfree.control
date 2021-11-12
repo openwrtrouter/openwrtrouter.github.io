@@ -1,0 +1,10 @@
+Package: luci-app-ramfree
+Version: 1.0-1
+Depends: libc
+Source: package/lean/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 424
+Description:  luci-app-ramfree

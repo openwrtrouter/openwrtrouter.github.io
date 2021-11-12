@@ -1,0 +1,11 @@
+Package: kmod-shortcut-fe
+Version: 5.4.158-2
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01)
+Provides: shortcut-fe
+Source: package/lean/shortcut-fe/shortcut-fe
+SourceName: kmod-shortcut-fe
+Section: kernel
+SourceDateEpoch: 1633940103
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21248
+Description:  Kernel driver for SFE

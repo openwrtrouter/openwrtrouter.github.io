@@ -1,0 +1,10 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/iwinfo_plugin.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/rpcsys_plugin.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/file_plugin.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/rpcd-2021-07-13-1fa35765/CMakeFiles/rpcd.dir

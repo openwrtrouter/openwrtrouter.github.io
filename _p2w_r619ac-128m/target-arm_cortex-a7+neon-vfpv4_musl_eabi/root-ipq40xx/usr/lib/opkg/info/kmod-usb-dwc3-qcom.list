@@ -1,0 +1,3 @@
+/lib/modules/5.4.158/dwc3-qcom.ko
+/etc/modules.d/53-usb-dwc3-qcom
+/etc/modules-boot.d/53-usb-dwc3-qcom

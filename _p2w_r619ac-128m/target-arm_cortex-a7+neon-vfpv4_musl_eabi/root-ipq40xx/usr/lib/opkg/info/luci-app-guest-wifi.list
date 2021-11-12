@@ -1,0 +1,5 @@
+/etc/init.d/guest-wifi
+/etc/config/guest-wifi
+/etc/uci-defaults/luci-guest-wifi
+/usr/lib/lua/luci/controller/guest-wifi.lua
+/usr/lib/lua/luci/model/cbi/guest-wifi.lua

@@ -1,0 +1,10 @@
+Package: luci-lib-fs
+Version: 1.0-1
+Depends: libc, luci, luci-lib-nixio
+Source: package/lean/luci-lib-fs
+SourceName: luci-lib-fs
+Section: lang
+SourceDateEpoch: 1539925576
+Architecture: all
+Installed-Size: 2344
+Description:  luci-lib-fs

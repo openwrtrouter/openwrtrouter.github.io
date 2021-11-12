@@ -1,0 +1,378 @@
+Determining if the include file bitypes.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_41c25 && [1/2] Building C object CMakeFiles/cmTC_41c25.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_41c25.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_41c25.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: bitypes.h: No such file or directory
+ #include <bitypes.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/ioccom.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a0c12 && [1/2] Building C object CMakeFiles/cmTC_a0c12.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_a0c12.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a0c12.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/ioccom.h: No such file or directory
+ #include <sys/ioccom.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f5972 && [1/2] Building C object CMakeFiles/cmTC_f5972.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_f5972.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_f5972.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files sys/types.h;sys/socket.h;net/if.h;net/pfvar.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cf089 && [1/2] Building C object CMakeFiles/cmTC_cf089.dir/HAVE_NET_PFVAR_H.c.o
+FAILED: CMakeFiles/cmTC_cf089.dir/HAVE_NET_PFVAR_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_cf089.dir/HAVE_NET_PFVAR_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CheckIncludeFiles/HAVE_NET_PFVAR_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CheckIncludeFiles/HAVE_NET_PFVAR_H.c:5:10: fatal error: net/pfvar.h: No such file or directory
+ #include <net/pfvar.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#include <net/pfvar.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_GNU_STRERROR_R failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_13d9f && [1/2] Building C object CMakeFiles/cmTC_13d9f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_13d9f.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DHAVE_GNU_STRERROR_R  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_13d9f.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c:5:14: error: conflicting types for 'strerror_r'
+ extern char *strerror_r(int, char *, size_t);
+              ^~~~~~~~~~
+In file included from /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c:2:
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include/string.h:64:5: note: previous declaration of 'strerror_r' was here
+ int strerror_r (int, char *, size_t);
+     ^~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#define _GNU_SOURCE
+#include <string.h>
+
+/* Define it GNU-style; that will cause an error if it's not GNU-style */
+extern char *strerror_r(int, char *, size_t);
+
+int
+main(void)
+{
+	return 0;
+}
+
+Determining if the function putmsg exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_93da9 && [1/2] Building C object CMakeFiles/cmTC_93da9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_93da9
+FAILED: cmTC_93da9 
+: && /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=putmsg -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -DPIC -fpic -specs=/workdir/openwrt/include/hardened-ld-pie.specs -znow -zrelro   -rdynamic CMakeFiles/cmTC_93da9.dir/CheckFunctionExists.c.o -o cmTC_93da9   && :
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/ld: CMakeFiles/cmTC_93da9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `putmsg'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function putmsg exists in the str failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_75632 && [1/2] Building C object CMakeFiles/cmTC_75632.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_75632
+FAILED: cmTC_75632 
+: && /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=putmsg -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -DPIC -fpic -specs=/workdir/openwrt/include/hardened-ld-pie.specs -znow -zrelro   -rdynamic CMakeFiles/cmTC_75632.dir/CheckFunctionExists.c.o -o cmTC_75632  -lstr && :
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/ld: cannot find -lstr
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the getnetbyname_r exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e0ee9 && [1/2] Building C object CMakeFiles/cmTC_e0ee9.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e0ee9.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_e0ee9.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'getnetbyname_r' undeclared (first use in this function); did you mean 'getnetbyname'?
+   return ((int*)(&getnetbyname_r))[argc];
+                   ^~~~~~~~~~~~~~
+                   getnetbyname
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnetbyname_r
+  return ((int*)(&getnetbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname_r exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_62cce && [1/2] Building C object CMakeFiles/cmTC_62cce.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_62cce.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_62cce.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'getprotobyname_r' undeclared (first use in this function); did you mean 'getprotobyname'?
+   return ((int*)(&getprotobyname_r))[argc];
+                   ^~~~~~~~~~~~~~~~
+                   getprotobyname
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname_r
+  return ((int*)(&getprotobyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_SA_LEN failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a5360 && [1/2] Building C object CMakeFiles/cmTC_a5360.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a5360.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DHAVE_STRUCT_SOCKADDR_SA_LEN  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a5360.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/src.c:6:38: error: 'struct sockaddr' has no member named 'sa_len'
+   (void)sizeof(((struct sockaddr *)0)->sa_len);
+                                      ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr *)0)->sa_len);
+  return 0;
+}
+
+Determining if the ffs exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2a2d9 && [1/2] Building C object CMakeFiles/cmTC_2a2d9.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2a2d9.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_2a2d9.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'ffs' undeclared (first use in this function)
+   return ((int*)(&ffs))[argc];
+                   ^~~
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ffs
+  return ((int*)(&ffs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ether_hostton exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_28c79 && [1/2] Building C object CMakeFiles/cmTC_28c79.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_28c79.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_28c79.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'ether_hostton' undeclared (first use in this function); did you mean 'ether_header'?
+   return ((int*)(&ether_hostton))[argc];
+                   ^~~~~~~~~~~~~
+                   ether_header
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <net/ethernet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ether_hostton
+  return ((int*)(&ether_hostton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files sys/types.h;net/bpf.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_4c0b8 && [1/2] Building C object CMakeFiles/cmTC_4c0b8.dir/HAVE_NET_BPF_H.c.o
+FAILED: CMakeFiles/cmTC_4c0b8.dir/HAVE_NET_BPF_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_4c0b8.dir/HAVE_NET_BPF_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CheckIncludeFiles/HAVE_NET_BPF_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CheckIncludeFiles/HAVE_NET_BPF_H.c:3:10: fatal error: net/bpf.h: No such file or directory
+ #include <net/bpf.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <net/bpf.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file net/pfilt.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_51394 && [1/2] Building C object CMakeFiles/cmTC_51394.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_51394.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_51394.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/pfilt.h: No such file or directory
+ #include <net/pfilt.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file net/enet.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b20cd && [1/2] Building C object CMakeFiles/cmTC_b20cd.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_b20cd.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_b20cd.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/enet.h: No such file or directory
+ #include <net/enet.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file net/nit.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_3cce9 && [1/2] Building C object CMakeFiles/cmTC_3cce9.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_3cce9.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_3cce9.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/nit.h: No such file or directory
+ #include <net/nit.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/net/nit.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d50e0 && [1/2] Building C object CMakeFiles/cmTC_d50e0.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_d50e0.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_d50e0.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/net/nit.h: No such file or directory
+ #include <sys/net/nit.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file net/raw.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0dcd8 && [1/2] Building C object CMakeFiles/cmTC_0dcd8.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_0dcd8.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_0dcd8.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/raw.h: No such file or directory
+ #include <net/raw.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/dlpi.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_aa7ce && [1/2] Building C object CMakeFiles/cmTC_aa7ce.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_aa7ce.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_aa7ce.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/dlpi.h: No such file or directory
+ #include <sys/dlpi.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file config/HaikuConfig.h exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0e1d1 && [1/2] Building C object CMakeFiles/cmTC_0e1d1.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_0e1d1.dir/CheckIncludeFile.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1=libpcap-1.10.1 -Wformat -Werror=format-security -DPIC -fpic -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_0e1d1.dir/CheckIncludeFile.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libpcap-1.10.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: config/HaikuConfig.h: No such file or directory
+ #include <config/HaikuConfig.h>
+          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+

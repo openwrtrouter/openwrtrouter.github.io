@@ -1,0 +1,13 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_static.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_core_static.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_shared.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_core_shared.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_extra_static.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/event_extra_shared.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/uninstall.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libevent-2.1.12-stable/CMakeFiles/edit_cache.dir

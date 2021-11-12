@@ -1,0 +1,10 @@
+Package: luci-app-guest-wifi
+Version: 1.0-1
+Depends: libc
+Source: package/lean/luci-app-guest-wifi
+SourceName: luci-app-guest-wifi
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 3177
+Description:  luci-app-guest-wifi

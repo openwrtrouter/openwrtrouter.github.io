@@ -1,0 +1,2168 @@
+The target system is: Linux - 1 - arm
+The host system is: Linux - 5.11.0-1020-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc 
+Build flags: -Os;-pipe;-fno-caller-saves;-fno-plt;-fhonour-copts;-Wno-error=unused-but-set-variable;-Wno-error=unused-result;-mfloat-abi=hard;-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1;-Wformat;-Werror=format-security;-fstack-protector;-D_FORTIFY_SOURCE=1;-Wl,-z,now;-Wl,-z,relro;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f1e91 && [1/2] Building C object CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1 -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -fstack-protector -o - |
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34
+GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include
+ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include
+End of search list.
+GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 25937ff03437bcd730f9f24247b89159
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+[2/2] Linking C executable cmTC_f1e91
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
+COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f1e91' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/cca2RW0d.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_f1e91 -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f1e91' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+    add: [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  end of search list found
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  collapse include dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  implicit include dirs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f1e91 && [1/2] Building C object CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1 -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -fstack-protector -o - |]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34]
+  ignore line: [GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  ignore line: [ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 25937ff03437bcd730f9f24247b89159]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [[2/2] Linking C executable cmTC_f1e91]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f1e91' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  link line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/cca2RW0d.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_f1e91 -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/workdir/openwrt/tmp/cca2RW0d.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f1e91] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+    arg [-L/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> ignore
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_f1e91.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+  implicit objs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  implicit dirs: [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib;/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_763a8 && [1/2] Building C object CMakeFiles/cmTC_763a8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_763a8
+
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b9df3 && [1/2] Building C object CMakeFiles/cmTC_b9df3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b9df3
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a7c62 && [1/2] Building C object CMakeFiles/cmTC_a7c62.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a7c62
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fb860 && [1/2] Building C object CMakeFiles/cmTC_fb860.dir/HAVE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_fb860
+
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a32fa && [1/2] Building C object CMakeFiles/cmTC_a32fa.dir/HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_a32fa
+
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_903a7 && [1/2] Building C object CMakeFiles/cmTC_903a7.dir/HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_903a7
+
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_5c271 && [1/2] Building C object CMakeFiles/cmTC_5c271.dir/HAVE_ARPA_NAMESER_COMPAT_H.c.o
+[2/2] Linking C executable cmTC_5c271
+
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_5cb13 && [1/2] Building C object CMakeFiles/cmTC_5cb13.dir/HAVE_ARPA_NAMESER_H.c.o
+[2/2] Linking C executable cmTC_5cb13
+
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e774b && [1/2] Building C object CMakeFiles/cmTC_e774b.dir/HAVE_ASSERT_H.c.o
+[2/2] Linking C executable cmTC_e774b
+
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d9aff && [1/2] Building C object CMakeFiles/cmTC_d9aff.dir/HAVE_ERRNO_H.c.o
+[2/2] Linking C executable cmTC_d9aff
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_16459 && [1/2] Building C object CMakeFiles/cmTC_16459.dir/HAVE_FCNTL_H.c.o
+[2/2] Linking C executable cmTC_16459
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_14a88 && [1/2] Building C object CMakeFiles/cmTC_14a88.dir/HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_14a88
+
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_9adbe && [1/2] Building C object CMakeFiles/cmTC_9adbe.dir/HAVE_LIMITS_H.c.o
+[2/2] Linking C executable cmTC_9adbe
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8ffab && [1/2] Building C object CMakeFiles/cmTC_8ffab.dir/HAVE_MALLOC_H.c.o
+[2/2] Linking C executable cmTC_8ffab
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_40e95 && [1/2] Building C object CMakeFiles/cmTC_40e95.dir/HAVE_MEMORY_H.c.o
+[2/2] Linking C executable cmTC_40e95
+
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_03e0a && [1/2] Building C object CMakeFiles/cmTC_03e0a.dir/HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_03e0a
+
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_9c40f && [1/2] Building C object CMakeFiles/cmTC_9c40f.dir/HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_9c40f
+
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_98924 && [1/2] Building C object CMakeFiles/cmTC_98924.dir/HAVE_NETINET_TCP_H.c.o
+[2/2] Linking C executable cmTC_98924
+
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a5cc0 && [1/2] Building C object CMakeFiles/cmTC_a5cc0.dir/HAVE_NET_IF_H.c.o
+[2/2] Linking C executable cmTC_a5cc0
+
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e873d && [1/2] Building C object CMakeFiles/cmTC_e873d.dir/HAVE_SIGNAL_H.c.o
+[2/2] Linking C executable cmTC_e873d
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_9fe24 && [1/2] Building C object CMakeFiles/cmTC_9fe24.dir/HAVE_STDBOOL_H.c.o
+[2/2] Linking C executable cmTC_9fe24
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_77a6d && [1/2] Building C object CMakeFiles/cmTC_77a6d.dir/HAVE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_77a6d
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_28f86 && [1/2] Building C object CMakeFiles/cmTC_28f86.dir/HAVE_STDLIB_H.c.o
+[2/2] Linking C executable cmTC_28f86
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d8085 && [1/2] Building C object CMakeFiles/cmTC_d8085.dir/HAVE_STRINGS_H.c.o
+[2/2] Linking C executable cmTC_d8085
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_40b70 && [1/2] Building C object CMakeFiles/cmTC_40b70.dir/HAVE_STRING_H.c.o
+[2/2] Linking C executable cmTC_40b70
+
+
+
+Determining if files stropts.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6fa96 && [1/2] Building C object CMakeFiles/cmTC_6fa96.dir/HAVE_STROPTS_H.c.o
+[2/2] Linking C executable cmTC_6fa96
+
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0e7f0 && [1/2] Building C object CMakeFiles/cmTC_0e7f0.dir/HAVE_SYS_IOCTL_H.c.o
+[2/2] Linking C executable cmTC_0e7f0
+
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_26d49 && [1/2] Building C object CMakeFiles/cmTC_26d49.dir/HAVE_SYS_PARAM_H.c.o
+[2/2] Linking C executable cmTC_26d49
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6714c && [1/2] Building C object CMakeFiles/cmTC_6714c.dir/HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_6714c
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2db8f && [1/2] Building C object CMakeFiles/cmTC_2db8f.dir/HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_2db8f
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_12dfd && [1/2] Building C object CMakeFiles/cmTC_12dfd.dir/HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_12dfd
+
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_988aa && [1/2] Building C object CMakeFiles/cmTC_988aa.dir/HAVE_SYS_UIO_H.c.o
+[2/2] Linking C executable cmTC_988aa
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_78e04 && [1/2] Building C object CMakeFiles/cmTC_78e04.dir/HAVE_TIME_H.c.o
+[2/2] Linking C executable cmTC_78e04
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b0940 && [1/2] Building C object CMakeFiles/cmTC_b0940.dir/HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_b0940
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_24538 && [1/2] Building C object CMakeFiles/cmTC_24538.dir/HAVE_UNISTD_H.c.o
+[2/2] Linking C executable cmTC_24538
+
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fdc80 && [1/2] Building C object CMakeFiles/cmTC_fdc80.dir/src.c.o
+[2/2] Linking C executable cmTC_fdc80
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ea3e9 && [1/2] Building C object CMakeFiles/cmTC_ea3e9.dir/src.c.o
+[2/2] Linking C executable cmTC_ea3e9
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2e13a && [1/2] Building C object CMakeFiles/cmTC_2e13a.dir/src.c.o
+[2/2] Linking C executable cmTC_2e13a
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f3347 && [1/2] Building C object CMakeFiles/cmTC_f3347.dir/src.c.o
+[2/2] Linking C executable cmTC_f3347
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_1a979 && [1/2] Building C object CMakeFiles/cmTC_1a979.dir/src.c.o
+[2/2] Linking C executable cmTC_1a979
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_4e904 && [1/2] Building C object CMakeFiles/cmTC_4e904.dir/src.c.o
+[2/2] Linking C executable cmTC_4e904
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6288d && [1/2] Building C object CMakeFiles/cmTC_6288d.dir/src.c.o
+[2/2] Linking C executable cmTC_6288d
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_7a5d0 && [1/2] Building C object CMakeFiles/cmTC_7a5d0.dir/src.c.o
+[2/2] Linking C executable cmTC_7a5d0
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_70d5a && [1/2] Building C object CMakeFiles/cmTC_70d5a.dir/src.c.o
+[2/2] Linking C executable cmTC_70d5a
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f1dff && [1/2] Building C object CMakeFiles/cmTC_f1dff.dir/src.c.o
+[2/2] Linking C executable cmTC_f1dff
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c9c05 && [1/2] Building C object CMakeFiles/cmTC_c9c05.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c9c05
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_88a6e && [1/2] Building C object CMakeFiles/cmTC_88a6e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_88a6e
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_19471 && [1/2] Building C object CMakeFiles/cmTC_19471.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_19471
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cbb42 && [1/2] Building C object CMakeFiles/cmTC_cbb42.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cbb42
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the MSG_NOSIGNAL exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_37d58 && [1/2] Building C object CMakeFiles/cmTC_37d58.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_37d58
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cea69 && [1/2] Building C object CMakeFiles/cmTC_cea69.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cea69
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_dd381 && [1/2] Building C object CMakeFiles/cmTC_dd381.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dd381
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c6229 && [1/2] Building C object CMakeFiles/cmTC_c6229.dir/src.c.o
+[2/2] Linking C executable cmTC_c6229
+
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_346f1 && [1/2] Building C object CMakeFiles/cmTC_346f1.dir/src.c.o
+[2/2] Linking C executable cmTC_346f1
+
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e77f5 && [1/2] Building C object CMakeFiles/cmTC_e77f5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e77f5
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_dc409 && [1/2] Building C object CMakeFiles/cmTC_dc409.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dc409
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fca30 && [1/2] Building C object CMakeFiles/cmTC_fca30.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fca30
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_776bd && [1/2] Building C object CMakeFiles/cmTC_776bd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_776bd
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getenv exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_9a8ae && [1/2] Building C object CMakeFiles/cmTC_9a8ae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9a8ae
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ca9aa && [1/2] Building C object CMakeFiles/cmTC_ca9aa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ca9aa
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_390a9 && [1/2] Building C object CMakeFiles/cmTC_390a9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_390a9
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostname exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_20db0 && [1/2] Building C object CMakeFiles/cmTC_20db0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_20db0
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_42585 && [1/2] Building C object CMakeFiles/cmTC_42585.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_42585
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyport_r exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f2d64 && [1/2] Building C object CMakeFiles/cmTC_f2d64.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2d64
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyname_r exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0b02b && [1/2] Building C object CMakeFiles/cmTC_0b02b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0b02b
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyname_r
+  return ((int*)(&getservbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_09f2d && [1/2] Building C object CMakeFiles/cmTC_09f2d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_09f2d
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d66e5 && [1/2] Building C object CMakeFiles/cmTC_d66e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d66e5
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8b48f && [1/2] Building C object CMakeFiles/cmTC_8b48f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8b48f
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_60d26 && [1/2] Building C object CMakeFiles/cmTC_60d26.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_60d26
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a32ee && [1/2] Building C object CMakeFiles/cmTC_a32ee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a32ee
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the recv exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cd818 && [1/2] Building C object CMakeFiles/cmTC_cd818.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cd818
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_db88a && [1/2] Building C object CMakeFiles/cmTC_db88a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_db88a
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the send exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_20bfa && [1/2] Building C object CMakeFiles/cmTC_20bfa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_20bfa
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_99d88 && [1/2] Building C object CMakeFiles/cmTC_99d88.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_99d88
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the socket exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a6a2c && [1/2] Building C object CMakeFiles/cmTC_a6a2c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a6a2c
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_4b465 && [1/2] Building C object CMakeFiles/cmTC_4b465.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4b465
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ec97a && [1/2] Building C object CMakeFiles/cmTC_ec97a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ec97a
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e7b3a && [1/2] Building C object CMakeFiles/cmTC_e7b3a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e7b3a
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the writev exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_badf8 && [1/2] Building C object CMakeFiles/cmTC_badf8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_badf8
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

@@ -1,0 +1,13 @@
+Package: coremark
+Version: 2021-03-12-1541482b-3
+Depends: libc
+Source: feeds/packages/utils/coremark
+SourceName: coremark
+License: Apache-2.0
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1636706225
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10527
+Description:  Embedded Microprocessor Benchmark

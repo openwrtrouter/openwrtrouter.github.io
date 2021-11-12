@@ -1,0 +1,17 @@
+# ninja log v5
+0	84	1636722288062114330	CMakeFiles/firewall3.dir/main.c.o	8d87b0a54bed3b9c
+84	193	1636722288170113469	CMakeFiles/firewall3.dir/options.c.o	3482040347283bb4
+193	263	1636722288242112895	CMakeFiles/firewall3.dir/defaults.c.o	b24593aa8c195545
+263	363	1636722288342112097	CMakeFiles/firewall3.dir/zones.c.o	a35376923a157177
+363	427	1636722288406111587	CMakeFiles/firewall3.dir/forwards.c.o	2d8020aebbfebd0b
+427	522	1636722288502110821	CMakeFiles/firewall3.dir/rules.c.o	10e8ca2558ac4b3e
+522	621	1636722288598110055	CMakeFiles/firewall3.dir/redirects.c.o	9eeeaa6e8680d3af
+621	705	1636722288682109386	CMakeFiles/firewall3.dir/snats.c.o	cdeccd0961fbad62
+705	813	1636722288794108492	CMakeFiles/firewall3.dir/utils.c.o	f4158e58e257d2f0
+814	898	1636722288878107822	CMakeFiles/firewall3.dir/ubus.c.o	771ac13fd4ed86cc
+898	982	1636722288962107152	CMakeFiles/firewall3.dir/ipsets.c.o	64210c9cba6cab3e
+982	1046	1636722289026106642	CMakeFiles/firewall3.dir/includes.c.o	a9f197283183edf9
+1046	1198	1636722289178105430	CMakeFiles/firewall3.dir/iptables.c.o	26366a00684f601e
+1198	1267	1636722289246104887	CMakeFiles/firewall3.dir/helpers.c.o	ea5bcfb3ef8e27a5
+1267	3301	1636722291278113752	firewall3	b8dfe26ec9acddab
+1	6	0	CMakeFiles/install.util	10e1caabebac872d

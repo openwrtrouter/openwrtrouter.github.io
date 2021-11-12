@@ -1,0 +1,11 @@
+Package: automount
+Version: 1-34
+Depends: libc, block-mount, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, kmod-fs-vfat, kmod-fs-ext4, kmod-fs-exfat, antfs-mount, libblkid1
+Source: package/lean/automount
+SourceName: automount
+Section: opt
+SourceDateEpoch: 1624721212
+Maintainer: Lean
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 692
+Description:  A usb autoconfig hotplug script.

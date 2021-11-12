@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-arpbind) && rm -f /etc/uci-defaults/luci-arpbind
+	exit 0
+}

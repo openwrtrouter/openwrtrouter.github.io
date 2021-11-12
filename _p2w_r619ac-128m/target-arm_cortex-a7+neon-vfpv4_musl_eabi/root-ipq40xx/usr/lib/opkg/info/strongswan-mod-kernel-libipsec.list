@@ -1,0 +1,4 @@
+/usr/lib/ipsec/libipsec.so.0.0.0
+/usr/lib/ipsec/libipsec.so.0
+/etc/strongswan.d/charon/kernel-libipsec.conf
+/usr/lib/ipsec/plugins/libstrongswan-kernel-libipsec.so

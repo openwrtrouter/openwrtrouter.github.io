@@ -1,0 +1,9 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/testgetgateway.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/natpmpc.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libnatpmp-20150609/CMakeFiles/natpmp.dir

@@ -1,0 +1,10 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: package/lean/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1584254420
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 455271
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.

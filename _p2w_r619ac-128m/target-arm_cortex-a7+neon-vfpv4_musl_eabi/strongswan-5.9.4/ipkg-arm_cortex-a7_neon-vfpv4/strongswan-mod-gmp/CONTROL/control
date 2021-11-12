@@ -1,0 +1,13 @@
+Package: strongswan-mod-gmp
+Version: 5.9.4-1
+Depends: libc, strongswan, libgmp10
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-gmp
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1636706225
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11416
+Description:  StrongSwan libgmp plugin

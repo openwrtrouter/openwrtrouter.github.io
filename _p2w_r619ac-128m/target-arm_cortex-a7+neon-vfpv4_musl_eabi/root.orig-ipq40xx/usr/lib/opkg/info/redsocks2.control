@@ -1,0 +1,11 @@
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Source: package/lean/redsocks2
+SourceName: redsocks2
+Section: net
+SourceDateEpoch: 1603263141
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52168
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).

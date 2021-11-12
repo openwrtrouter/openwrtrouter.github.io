@@ -1,0 +1,1 @@
+cmd_/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/shortcut-fe-cm.o := arm-openwrt-linux-muslgnueabi-ld  -EL    -r -o /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/shortcut-fe-cm.o /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/sfe_cm.o

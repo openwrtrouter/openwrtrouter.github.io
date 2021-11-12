@@ -1,0 +1,10 @@
+Package: luci-i18n-nlbwmon-zh-cn
+Version: git-21.280.14233-9b796b1-1
+Depends: libc, luci-app-nlbwmon
+Source: feeds/luci/applications/luci-app-nlbwmon
+SourceName: luci-i18n-nlbwmon-zh-cn
+Section: luci
+SourceDateEpoch: 1633579033
+Architecture: all
+Installed-Size: 3781
+Description:  Translation for luci-app-nlbwmon - 简体中文 (Simplified Chinese)

@@ -1,0 +1,1 @@
+cmd_/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/shortcut-fe-ipv6.mod := { echo  /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/sfe_ipv6.o;  echo; } > /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx/shortcut-fe/shortcut-fe-ipv6.mod

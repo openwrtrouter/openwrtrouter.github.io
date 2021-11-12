@@ -1,0 +1,7 @@
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/hostpkg/fwtool-2019-11-12-8f7fe925/CMakeFiles/fwtool.dir

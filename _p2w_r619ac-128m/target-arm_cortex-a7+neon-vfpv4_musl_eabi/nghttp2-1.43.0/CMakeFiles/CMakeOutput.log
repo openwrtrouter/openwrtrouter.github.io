@@ -1,0 +1,977 @@
+The target system is: Linux - 1 - arm
+The host system is: Linux - 5.11.0-1020-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc 
+Build flags: -Os;-pipe;-fno-caller-saves;-fno-plt;-fhonour-copts;-Wno-error=unused-but-set-variable;-Wno-error=unused-result;-mfloat-abi=hard;-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0;-Wformat;-Werror=format-security;-fstack-protector;-D_FORTIFY_SOURCE=1;-Wl,-z,now;-Wl,-z,relro;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-g++ 
+Build flags: -Os;-pipe;-fno-caller-saves;-fno-plt;-fhonour-copts;-Wno-error=unused-but-set-variable;-Wno-error=unused-result;-mfloat-abi=hard;-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0;-Wformat;-Werror=format-security;-fstack-protector;-D_FORTIFY_SOURCE=1;-Wl,-z,now;-Wl,-z,relro;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f3aa9 && [1/2] Building C object CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1 -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -fstack-protector -o - |
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34
+GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include
+ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include
+End of search list.
+GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 25937ff03437bcd730f9f24247b89159
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+[2/2] Linking C executable cmTC_f3aa9
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
+COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f3aa9' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/cc9Z9mGU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_f3aa9 -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f3aa9' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+    add: [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  end of search list found
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  collapse include dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  implicit include dirs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f3aa9 && [1/2] Building C object CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1 -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -fstack-protector -o - |]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34]
+  ignore line: [GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  ignore line: [ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 25937ff03437bcd730f9f24247b89159]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [[2/2] Linking C executable cmTC_f3aa9]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_f3aa9' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  link line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/cc9Z9mGU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_f3aa9 -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/workdir/openwrt/tmp/cc9Z9mGU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f3aa9] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+    arg [-L/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> ignore
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_f3aa9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+  implicit objs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  implicit dirs: [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib;/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_329fa && [1/2] Building CXX object CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-g++
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1plus -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -D_GNU_SOURCE -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -fstack-protector -o - |
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34
+GNU C++14 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"
+ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include
+ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include
+End of search list.
+GNU C++14 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 45b8ca0b2b1fa7a1caa05dc6a227eb82
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+[2/2] Linking CXX executable cmTC_329fa
+Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs
+COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-g++
+COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer
+Thread model: posix
+gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) 
+COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_329fa' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/ccHLjMaM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_329fa -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_329fa' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+    add: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+    add: [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  end of search list found
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include]
+  collapse include dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  collapse include dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  implicit include dirs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/sys-include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/include;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_329fa && [1/2] Building CXX object CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-g++]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/cc1plus -quiet -v -iprefix /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/ -D_GNU_SOURCE -idirafter /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -D _FORTIFY_SOURCE=1 /workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mtls-dialect=gnu -marm -march=armv7ve+simd -auxbase-strip CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o -Os -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat=1 -version -fno-caller-saves -fno-plt -fhonour-copts -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -fstack-protector -o - |]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.34 (arm-openwrt-linux-muslgnueabi) using BFD version (GNU Binutils) 2.34]
+  ignore line: [GNU C++14 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include"]
+  ignore line: [ignoring duplicate directory "/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/../../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/arm-openwrt-linux-muslgnueabi]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include/c++/8.4.0/backward]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/sys-include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/include]
+  ignore line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/include]
+  ignore line: [ /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (OpenWrt GCC 8.4.0 r3881-e65535d3c) version 8.4.0 (arm-openwrt-linux-muslgnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 45b8ca0b2b1fa7a1caa05dc6a227eb82]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-v' '-o' 'CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  ignore line: [[2/2] Linking CXX executable cmTC_329fa]
+  ignore line: [Reading specs from /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/specs]
+  ignore line: [COLLECT_GCC=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /workdir/openwrt/build_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r3881-e65535d3c' --prefix=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/workdir/openwrt/staging_dir/host --with-mpfr=/workdir/openwrt/staging_dir/host --with-mpc=/workdir/openwrt/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-headers=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/workdir/openwrt/staging_dir/host --disable-libsanitizer]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (OpenWrt GCC 8.4.0 r3881-e65535d3c) ]
+  ignore line: [COMPILER_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/:/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-fno-caller-saves' '-fno-plt' '-fhonour-copts' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-result' '-mfloat-abi=hard' '-fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0' '-Wformat=1' '-fstack-protector' '-D' '_FORTIFY_SOURCE=1' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib' '-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib' '-z' 'now' '-z' 'relro' '-v' '-rdynamic' '-o' 'cmTC_329fa' '-shared-libgcc' '-mcpu=cortex-a7' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7ve+simd']
+  link line: [ /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2 -plugin /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so -plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper -plugin-opt=-fresolution=/workdir/openwrt/tmp/ccHLjMaM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_329fa -z now -z relro /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -L /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -rpath-link /workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0 -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc -L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o /workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/workdir/openwrt/tmp/ccHLjMaM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_329fa] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+    arg [-L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+    arg [-L/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> ignore
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc]
+    arg [-L/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_329fa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+    arg [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o]
+  collapse obj [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib] ==> [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib]
+  collapse library dir [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib] ==> [/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc]
+  collapse library dir [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [stdc++;m;ssp_nonshared;gcc_s;c;gcc_s]
+  implicit objs: [/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crt1.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crti.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtbegin.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/crtend.o;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+  implicit dirs: [/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib;/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib;/workdir/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib/gcc;/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CXX_FLAG__std_c_14 succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0c6f1 && [1/2] Building CXX object CMakeFiles/cmTC_0c6f1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0c6f1
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_FUTURE succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fbdcd && [1/2] Building CXX object CMakeFiles/cmTC_fbdcd.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fbdcd
+
+
+Source file was:
+
+#include <vector>
+#include <future>
+int main() { std::vector<std::future<int>> v; }
+Performing C++ SOURCE FILE Test HAVE_STD_MAP_EMPLACE succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_52b03 && [1/2] Building CXX object CMakeFiles/cmTC_52b03.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_52b03
+
+
+Source file was:
+
+#include <map>
+int main() { std::map<int, int>().emplace(1, 2); }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a0573 && [1/2] Building C object CMakeFiles/cmTC_a0573.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a0573
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8e7ab && [1/2] Building C object CMakeFiles/cmTC_8e7ab.dir/src.c.o
+[2/2] Linking C executable cmTC_8e7ab
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b896f && [1/2] Building C object CMakeFiles/cmTC_b896f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b896f
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_1edf6 && [1/2] Building C object CMakeFiles/cmTC_1edf6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1edf6
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_32b89 && [1/2] Building C object CMakeFiles/cmTC_32b89.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_32b89
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6d74a && [1/2] Building C object CMakeFiles/cmTC_6d74a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6d74a
+
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_81c32 && [1/2] Building C object CMakeFiles/cmTC_81c32.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_81c32
+
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0ae91 && [1/2] Building C object CMakeFiles/cmTC_0ae91.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0ae91
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a3b24 && [1/2] Building C object CMakeFiles/cmTC_a3b24.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a3b24
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_7f574 && [1/2] Building C object CMakeFiles/cmTC_7f574.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7f574
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c2630 && [1/2] Building C object CMakeFiles/cmTC_c2630.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c2630
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a038c && [1/2] Building C object CMakeFiles/cmTC_a038c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a038c
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8b398 && [1/2] Building C object CMakeFiles/cmTC_8b398.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8b398
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_eafb0 && [1/2] Building C object CMakeFiles/cmTC_eafb0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_eafb0
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_97864 && [1/2] Building C object CMakeFiles/cmTC_97864.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_97864
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_97b1d && [1/2] Building C object CMakeFiles/cmTC_97b1d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_97b1d
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c76af && [1/2] Building C object CMakeFiles/cmTC_c76af.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c76af
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c17ae && [1/2] Building C object CMakeFiles/cmTC_c17ae.dir/SIZEOF_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_c17ae
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TM_TM_GMTOFF succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d1529 && [1/2] Building C object CMakeFiles/cmTC_d1529.dir/src.c.o
+[2/2] Linking C executable cmTC_d1529
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+Determining size of int * passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fdaaf && [1/2] Building C object CMakeFiles/cmTC_fdaaf.dir/SIZEOF_INT_P.c.o
+[2/2] Linking C executable cmTC_fdaaf
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_120d9 && [1/2] Building C object CMakeFiles/cmTC_120d9.dir/SIZEOF_TIME_T.c.o
+[2/2] Linking C executable cmTC_120d9
+
+
+
+Determining if the function _Exit exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e0e2c && [1/2] Building C object CMakeFiles/cmTC_e0e2c.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function '_Exit' [-Wbuiltin-declaration-mismatch]
+/workdir/staging_dir/_p2w_r619ac-128m/host/share/cmake-3.21/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_e0e2c
+
+
+
+Determining if the function accept4 exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_76fc4 && [1/2] Building C object CMakeFiles/cmTC_76fc4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_76fc4
+
+
+
+Determining if the function mkostemp exists passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f719e && [1/2] Building C object CMakeFiles/cmTC_f719e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f719e
+
+
+
+Determining if the initgroups exist passed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_351b2 && [1/2] Building C object CMakeFiles/cmTC_351b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_351b2
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <grp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef initgroups
+  return ((int*)(&initgroups))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_FLAG__Wall succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_04904 && [1/2] Building C object CMakeFiles/cmTC_04904.dir/src.c.o
+[2/2] Linking C executable cmTC_04904
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wextra succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_1f69f && [1/2] Building C object CMakeFiles/cmTC_1f69f.dir/src.c.o
+[2/2] Linking C executable cmTC_1f69f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wmissing_prototypes succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_69bf1 && [1/2] Building C object CMakeFiles/cmTC_69bf1.dir/src.c.o
+[2/2] Linking C executable cmTC_69bf1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wstrict_prototypes succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cf15a && [1/2] Building C object CMakeFiles/cmTC_cf15a.dir/src.c.o
+[2/2] Linking C executable cmTC_cf15a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wmissing_declarations succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2e4cf && [1/2] Building C object CMakeFiles/cmTC_2e4cf.dir/src.c.o
+[2/2] Linking C executable cmTC_2e4cf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wpointer_arith succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f9f32 && [1/2] Building C object CMakeFiles/cmTC_f9f32.dir/src.c.o
+[2/2] Linking C executable cmTC_f9f32
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wdeclaration_after_statement succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fadff && [1/2] Building C object CMakeFiles/cmTC_fadff.dir/src.c.o
+[2/2] Linking C executable cmTC_fadff
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wformat_security succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_9ad65 && [1/2] Building C object CMakeFiles/cmTC_9ad65.dir/src.c.o
+[2/2] Linking C executable cmTC_9ad65
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wwrite_strings succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ad664 && [1/2] Building C object CMakeFiles/cmTC_ad664.dir/src.c.o
+[2/2] Linking C executable cmTC_ad664
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wshadow succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2d0d9 && [1/2] Building C object CMakeFiles/cmTC_2d0d9.dir/src.c.o
+[2/2] Linking C executable cmTC_2d0d9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Winline succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_cdb10 && [1/2] Building C object CMakeFiles/cmTC_cdb10.dir/src.c.o
+[2/2] Linking C executable cmTC_cdb10
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wnested_externs succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b5e73 && [1/2] Building C object CMakeFiles/cmTC_b5e73.dir/src.c.o
+[2/2] Linking C executable cmTC_b5e73
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wfloat_equal succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_af7ef && [1/2] Building C object CMakeFiles/cmTC_af7ef.dir/src.c.o
+[2/2] Linking C executable cmTC_af7ef
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wundef succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_57856 && [1/2] Building C object CMakeFiles/cmTC_57856.dir/src.c.o
+[2/2] Linking C executable cmTC_57856
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wendif_labels succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ee792 && [1/2] Building C object CMakeFiles/cmTC_ee792.dir/src.c.o
+[2/2] Linking C executable cmTC_ee792
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wempty_body succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e5e1b && [1/2] Building C object CMakeFiles/cmTC_e5e1b.dir/src.c.o
+[2/2] Linking C executable cmTC_e5e1b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wcast_align succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_43e81 && [1/2] Building C object CMakeFiles/cmTC_43e81.dir/src.c.o
+[2/2] Linking C executable cmTC_43e81
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wclobbered succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_303de && [1/2] Building C object CMakeFiles/cmTC_303de.dir/src.c.o
+[2/2] Linking C executable cmTC_303de
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wvla succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a4b09 && [1/2] Building C object CMakeFiles/cmTC_a4b09.dir/src.c.o
+[2/2] Linking C executable cmTC_a4b09
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wpragmas succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_4f0e4 && [1/2] Building C object CMakeFiles/cmTC_4f0e4.dir/src.c.o
+[2/2] Linking C executable cmTC_4f0e4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wunreachable_code succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_17c1b && [1/2] Building C object CMakeFiles/cmTC_17c1b.dir/src.c.o
+[2/2] Linking C executable cmTC_17c1b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Waddress succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8c5b4 && [1/2] Building C object CMakeFiles/cmTC_8c5b4.dir/src.c.o
+[2/2] Linking C executable cmTC_8c5b4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wattributes succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ab312 && [1/2] Building C object CMakeFiles/cmTC_ab312.dir/src.c.o
+[2/2] Linking C executable cmTC_ab312
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wdiv_by_zero succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_728c8 && [1/2] Building C object CMakeFiles/cmTC_728c8.dir/src.c.o
+[2/2] Linking C executable cmTC_728c8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wconversion succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_142c7 && [1/2] Building C object CMakeFiles/cmTC_142c7.dir/src.c.o
+[2/2] Linking C executable cmTC_142c7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wformat_nonliteral succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_720a3 && [1/2] Building C object CMakeFiles/cmTC_720a3.dir/src.c.o
+[2/2] Linking C executable cmTC_720a3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wmissing_field_initializers succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e4d58 && [1/2] Building C object CMakeFiles/cmTC_e4d58.dir/src.c.o
+[2/2] Linking C executable cmTC_e4d58
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wmissing_noreturn succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_25532 && [1/2] Building C object CMakeFiles/cmTC_25532.dir/src.c.o
+[2/2] Linking C executable cmTC_25532
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wsign_conversion succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_5ab2f && [1/2] Building C object CMakeFiles/cmTC_5ab2f.dir/src.c.o
+[2/2] Linking C executable cmTC_5ab2f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wunused_macros succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a09d9 && [1/2] Building C object CMakeFiles/cmTC_a09d9.dir/src.c.o
+[2/2] Linking C executable cmTC_a09d9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wunused_parameter succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_0c266 && [1/2] Building C object CMakeFiles/cmTC_0c266.dir/src.c.o
+[2/2] Linking C executable cmTC_0c266
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wredundant_decls succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8d77c && [1/2] Building C object CMakeFiles/cmTC_8d77c.dir/src.c.o
+[2/2] Linking C executable cmTC_8d77c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wno_format_nonliteral succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_364d4 && [1/2] Building C object CMakeFiles/cmTC_364d4.dir/src.c.o
+[2/2] Linking C executable cmTC_364d4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG__Wall succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6fd5f && [1/2] Building CXX object CMakeFiles/cmTC_6fd5f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6fd5f
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG__Wformat_security succeeded with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_09122 && [1/2] Building CXX object CMakeFiles/cmTC_09122.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_09122
+
+
+Source file was:
+int main() { return 0; }

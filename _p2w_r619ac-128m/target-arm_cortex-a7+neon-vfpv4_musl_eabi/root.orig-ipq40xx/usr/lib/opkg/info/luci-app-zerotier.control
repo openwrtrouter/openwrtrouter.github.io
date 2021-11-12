@@ -1,0 +1,10 @@
+Package: luci-app-zerotier
+Version: 1.0-20
+Depends: libc, zerotier
+Source: package/lean/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 3447
+Description:  LuCI for Zerotier

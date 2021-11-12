@@ -1,0 +1,16 @@
+Package: libcurl4
+Version: 7.79.1-1
+Depends: libc, libopenssl1.1, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1636706225
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 149072
+Description:  A client-side URL transfer library

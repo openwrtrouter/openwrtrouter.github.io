@@ -1,0 +1,5 @@
+/etc/ipsec.conf
+/etc/ipsec.secrets
+/lib/upgrade/keep.d/strongswan-ipsec
+/usr/sbin/ipsec
+/etc/ipsec.user

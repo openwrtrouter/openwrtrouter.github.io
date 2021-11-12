@@ -1,0 +1,14 @@
+Package: libubus20210603
+Version: 2021-06-03-a8cf6782-2
+Depends: libc, libubox20210516
+Provides: libubus
+Source: package/system/ubus
+SourceName: libubus
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1623751087
+ABIVersion: 20210603
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8879
+Description:  OpenWrt RPC client library

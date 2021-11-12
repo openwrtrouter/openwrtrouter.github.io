@@ -1,0 +1,4 @@
+/lib/modules/5.4.158/sha1-arm.ko
+/lib/modules/5.4.158/sha1-arm-neon.ko
+/etc/modules.d/09-crypto-sha1
+/lib/modules/5.4.158/sha1_generic.ko

@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-ssr-plus) && rm -f /etc/uci-defaults/luci-ssr-plus
+	exit 0
+}

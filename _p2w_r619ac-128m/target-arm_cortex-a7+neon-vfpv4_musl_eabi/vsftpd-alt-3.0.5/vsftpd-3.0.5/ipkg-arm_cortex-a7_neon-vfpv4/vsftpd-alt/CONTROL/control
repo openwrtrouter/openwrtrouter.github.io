@@ -1,0 +1,12 @@
+Package: vsftpd-alt
+Version: 3.0.5-1
+Depends: libc, libuci20130104
+Source: package/lean/vsftpd-alt
+SourceName: vsftpd-alt
+License: GPLv2
+Section: net
+SourceDateEpoch: 1629702519
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41860
+Description:  A fast and secure FTP server (with aio support)

@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-adbyby) && rm -f /etc/uci-defaults/luci-adbyby
+	exit 0
+}

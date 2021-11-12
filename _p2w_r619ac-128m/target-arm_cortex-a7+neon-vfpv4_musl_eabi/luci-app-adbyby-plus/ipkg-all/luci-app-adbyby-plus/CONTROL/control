@@ -1,0 +1,10 @@
+Package: luci-app-adbyby-plus
+Version: 2.0-75
+Depends: libc, adbyby, uclient-fetch, ipset, dnsmasq-full
+Source: package/lean/luci-app-adbyby-plus
+SourceName: luci-app-adbyby-plus
+Section: luci
+SourceDateEpoch: 1624240997
+Architecture: all
+Installed-Size: 9708
+Description:  LuCI support for Adbyby

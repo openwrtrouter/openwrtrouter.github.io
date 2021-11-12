@@ -1,0 +1,2 @@
+/etc/uci-defaults/zzz-move-automount
+/etc/15-automount

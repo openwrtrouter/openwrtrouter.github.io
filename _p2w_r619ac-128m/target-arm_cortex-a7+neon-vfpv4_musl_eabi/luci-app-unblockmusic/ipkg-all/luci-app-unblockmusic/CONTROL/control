@@ -1,0 +1,12 @@
+Package: luci-app-unblockmusic
+Version: 2.3.5-18
+Depends: libc, dnsmasq-full, ipset, uclient-fetch, UnblockNeteaseMusic-Go, UnblockNeteaseMusic
+Source: package/lean/luci-app-unblockmusic
+SourceName: luci-app-unblockmusic
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1636530295
+Maintainer: lean
+Architecture: all
+Installed-Size: 6941
+Description:  LuCI support for Unblock NeteaseCloudMusic

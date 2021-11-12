@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --dest-cpu=arm --dest-os=linux --cross-compiling --shared-zlib --shared-openssl --shared-nghttp2 --with-intl=none --with-arm-fpu=neon --prefix=/usr

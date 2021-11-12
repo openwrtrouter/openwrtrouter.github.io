@@ -1,0 +1,10 @@
+Package: luci-app-autoreboot
+Version: 1.0-8
+Depends: libc, luci
+Source: package/lean/luci-app-autoreboot
+SourceName: luci-app-autoreboot
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 1273
+Description:  LuCI support for Scheduled Reboot

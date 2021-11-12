@@ -1,0 +1,7 @@
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nlbwmon-2020-04-11.1-34a18876/CMakeFiles/nlbwmon.dir

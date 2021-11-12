@@ -1,0 +1,10 @@
+Package: luci-app-accesscontrol
+Version: 1-11
+Depends: libc
+Source: package/lean/luci-app-accesscontrol
+SourceName: luci-app-accesscontrol
+Section: luci
+SourceDateEpoch: 1625061512
+Architecture: all
+Installed-Size: 2739
+Description:  LuCI Access Control Configuration

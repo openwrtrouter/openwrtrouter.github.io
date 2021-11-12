@@ -1,0 +1,10 @@
+Package: luci-i18n-filetransfer-zh-cn
+Version: 1-2
+Depends: libc, luci-app-filetransfer
+Source: package/lean/luci-app-filetransfer
+SourceName: luci-i18n-filetransfer-zh-cn
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 867
+Description:  Translation for luci-app-filetransfer - 简体中文 (Simplified Chinese)

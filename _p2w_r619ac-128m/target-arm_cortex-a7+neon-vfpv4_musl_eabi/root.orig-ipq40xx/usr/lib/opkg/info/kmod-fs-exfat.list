@@ -1,0 +1,3 @@
+/lib/modules/5.4.158/exfat.ko
+/etc/modules-boot.d/30-fs-exfat
+/etc/modules.d/30-fs-exfat

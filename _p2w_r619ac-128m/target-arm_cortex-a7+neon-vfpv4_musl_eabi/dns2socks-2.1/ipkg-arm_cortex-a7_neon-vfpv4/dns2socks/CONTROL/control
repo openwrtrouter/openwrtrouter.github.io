@@ -1,0 +1,13 @@
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: package/lean/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1636706138
+Maintainer: ghostmaker
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10680
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.

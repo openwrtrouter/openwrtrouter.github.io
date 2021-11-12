@@ -1,0 +1,72 @@
+Performing C SOURCE FILE Test C_FLAG__Wshorten_64_to_32 failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_19ebf && [1/2] Building C object CMakeFiles/cmTC_19ebf.dir/src.c.o
+FAILED: CMakeFiles/cmTC_19ebf.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wshorten_64_to_32  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wshorten-64-to-32 -o CMakeFiles/cmTC_19ebf.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wextended_offsetof failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_4e072 && [1/2] Building C object CMakeFiles/cmTC_4e072.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4e072.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wextended_offsetof  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wextended-offsetof -o CMakeFiles/cmTC_4e072.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wextended-offsetof'; did you mean '-Winvalid-offsetof'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wlanguage_extension_token failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2552e && [1/2] Building C object CMakeFiles/cmTC_2552e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2552e.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wlanguage_extension_token  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wlanguage-extension-token -o CMakeFiles/cmTC_2552e.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wlanguage-extension-token'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wmissing_variable_declarations failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_20cf6 && [1/2] Building C object CMakeFiles/cmTC_20cf6.dir/src.c.o
+FAILED: CMakeFiles/cmTC_20cf6.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wmissing_variable_declarations  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wmissing-variable-declarations -o CMakeFiles/cmTC_20cf6.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wunreachable_code_break failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_76711 && [1/2] Building C object CMakeFiles/cmTC_76711.dir/src.c.o
+FAILED: CMakeFiles/cmTC_76711.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wunreachable_code_break  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wunreachable-code-break -o CMakeFiles/cmTC_76711.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wunreachable-code-break'; did you mean '-Wunreachable-code'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG__Wheader_guard failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_789d1 && [1/2] Building C object CMakeFiles/cmTC_789d1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_789d1.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DC_FLAG__Wheader_guard  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0=nghttp2-1.43.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    -Wheader-guard -o CMakeFiles/cmTC_789d1.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/nghttp2-1.43.0/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: unrecognized command line option '-Wheader-guard'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }

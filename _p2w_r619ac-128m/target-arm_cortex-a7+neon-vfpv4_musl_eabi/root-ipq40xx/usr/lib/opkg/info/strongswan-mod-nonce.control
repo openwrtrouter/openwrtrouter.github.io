@@ -1,0 +1,13 @@
+Package: strongswan-mod-nonce
+Version: 5.9.4-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+SourceName: strongswan-mod-nonce
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1636706225
+CPE-ID: cpe:/a:strongswan:strongswan
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@thermi.consulting>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1476
+Description:  StrongSwan nonce genereation plugin

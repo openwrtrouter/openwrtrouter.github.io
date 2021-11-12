@@ -1,0 +1,10 @@
+Package: luci-app-filetransfer
+Version: 1-2
+Depends: libc, luci-lib-fs
+Source: package/lean/luci-app-filetransfer
+SourceName: luci-app-filetransfer
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 2680
+Description:  LuCI page for IPK upload

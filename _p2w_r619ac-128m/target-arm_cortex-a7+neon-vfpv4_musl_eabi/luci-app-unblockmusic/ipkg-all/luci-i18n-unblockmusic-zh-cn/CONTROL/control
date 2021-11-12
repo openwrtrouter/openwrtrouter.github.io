@@ -1,0 +1,12 @@
+Package: luci-i18n-unblockmusic-zh-cn
+Version: 2.3.5-18
+Depends: libc, luci-app-unblockmusic
+Source: package/lean/luci-app-unblockmusic
+SourceName: luci-i18n-unblockmusic-zh-cn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1636530295
+Maintainer: lean
+Architecture: all
+Installed-Size: 531
+Description:  Translation for luci-app-unblockmusic - 简体中文 (Simplified Chinese)

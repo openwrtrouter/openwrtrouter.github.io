@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-ipsec) && rm -f /etc/uci-defaults/luci-ipsec
+	exit 0
+}

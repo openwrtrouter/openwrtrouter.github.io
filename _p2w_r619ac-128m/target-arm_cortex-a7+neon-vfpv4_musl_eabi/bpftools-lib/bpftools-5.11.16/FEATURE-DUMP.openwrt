@@ -1,0 +1,8 @@
+feature-bpf=1
+feature-clang-bpf-co-re=0
+feature-disassembler-four-args=1
+feature-libbfd=0
+feature-libcap=0
+feature-libelf=1
+feature-reallocarray=0
+feature-zlib=1

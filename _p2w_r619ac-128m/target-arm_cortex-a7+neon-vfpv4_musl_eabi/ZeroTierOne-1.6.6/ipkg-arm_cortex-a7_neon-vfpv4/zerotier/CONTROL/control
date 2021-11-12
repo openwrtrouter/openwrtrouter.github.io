@@ -1,0 +1,13 @@
+Package: zerotier
+Version: 1.6.6-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+Source: feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1636706225
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 416681
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.

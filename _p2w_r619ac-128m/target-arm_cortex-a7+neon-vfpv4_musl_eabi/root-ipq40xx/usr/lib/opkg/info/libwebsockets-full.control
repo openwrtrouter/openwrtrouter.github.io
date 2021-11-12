@@ -1,0 +1,14 @@
+Package: libwebsockets-full
+Version: 4.1.6-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets-full
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1636706225
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 147116
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)

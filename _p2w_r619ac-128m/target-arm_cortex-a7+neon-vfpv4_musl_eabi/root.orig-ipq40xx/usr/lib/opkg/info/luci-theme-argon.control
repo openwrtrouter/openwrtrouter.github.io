@@ -1,0 +1,10 @@
+Package: luci-theme-argon
+Version: 1.7.2-20210309
+Depends: libc
+Source: package/community/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1615807601
+Architecture: all
+Installed-Size: 415451
+Description:  Argon Theme

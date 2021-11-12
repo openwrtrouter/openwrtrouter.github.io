@@ -1,0 +1,10 @@
+Package: luci-app-vlmcsd
+Version: 1.0-6
+Depends: libc, vlmcsd
+Source: package/lean/luci-app-vlmcsd
+SourceName: luci-app-vlmcsd
+Section: luci
+SourceDateEpoch: 1636529606
+Architecture: all
+Installed-Size: 2314
+Description:  LuCI support for KMS

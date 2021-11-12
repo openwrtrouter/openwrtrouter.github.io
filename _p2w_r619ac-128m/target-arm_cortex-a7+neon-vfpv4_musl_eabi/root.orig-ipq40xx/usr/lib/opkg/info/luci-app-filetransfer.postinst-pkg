@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-filetransfer) && rm -f /etc/uci-defaults/luci-filetransfer
+	exit 0
+}

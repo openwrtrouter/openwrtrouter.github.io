@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/099-newapi-copy) && rm -f /etc/uci-defaults/099-newapi-copy
+	exit 0
+}

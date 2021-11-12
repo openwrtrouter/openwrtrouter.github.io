@@ -1,0 +1,10 @@
+Package: luci-app-ttyd
+Version: 1.0-3
+Depends: libc, ttyd
+Source: package/lean/luci-app-ttyd
+SourceName: luci-app-ttyd
+Section: luci
+SourceDateEpoch: 1627450836
+Architecture: all
+Installed-Size: 745
+Description:  LuCI support for ttyd

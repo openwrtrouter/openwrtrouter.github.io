@@ -1,0 +1,13 @@
+Package: ubusd
+Version: 2021-06-03-a8cf6782-2
+Depends: libc, libubox20210516, libblobmsg-json20210516
+Source: package/system/ubus
+SourceName: ubusd
+License: LGPL-2.1
+Section: base
+Require-User: ubus=81:ubus=81
+SourceDateEpoch: 1623751087
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10604
+Description:  OpenWrt RPC daemon

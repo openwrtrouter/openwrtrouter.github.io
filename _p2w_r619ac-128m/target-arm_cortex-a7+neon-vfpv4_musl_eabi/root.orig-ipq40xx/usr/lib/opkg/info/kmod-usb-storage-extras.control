@@ -1,0 +1,12 @@
+Package: kmod-usb-storage-extras
+Version: 5.4.158-1
+Depends: kernel (=5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01), kmod-usb-storage
+Source: package/kernel/linux
+SourceName: kmod-usb-storage-extras
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34292
+Description:  Say Y here if you want to have some more drivers,
+ such as for SmartMedia card readers

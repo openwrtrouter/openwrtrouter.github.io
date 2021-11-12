@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-cpufreq) && rm -f /etc/uci-defaults/luci-cpufreq
+	exit 0
+}

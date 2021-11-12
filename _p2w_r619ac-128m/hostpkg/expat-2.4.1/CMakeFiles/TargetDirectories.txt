@@ -1,0 +1,9 @@
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/install/strip.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/edit_cache.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/package_source.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/install.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/list_install_components.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/rebuild_cache.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/package.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/install/local.dir
+/workdir/openwrt/build_dir/hostpkg/expat-2.4.1/CMakeFiles/expat.dir

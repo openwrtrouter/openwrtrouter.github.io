@@ -1,0 +1,13 @@
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1636706225
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43588
+Description:  shadowsocks-libev ss-redir

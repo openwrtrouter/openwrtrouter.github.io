@@ -1,0 +1,12 @@
+Package: ddns-scripts_dnspod
+Version: 1.0.2-1
+Depends: libc, ddns-scripts, wget-ssl, ca-bundle
+Source: package/lean/ddns-scripts_dnspod
+SourceName: ddns-scripts_dnspod
+License: GPLv2
+Section: net
+SourceDateEpoch: 1624512634
+Maintainer: Small_5
+Architecture: all
+Installed-Size: 2589
+Description:  Dynamic DNS Client scripts extension for Dnspod.com/Dnspod.cn

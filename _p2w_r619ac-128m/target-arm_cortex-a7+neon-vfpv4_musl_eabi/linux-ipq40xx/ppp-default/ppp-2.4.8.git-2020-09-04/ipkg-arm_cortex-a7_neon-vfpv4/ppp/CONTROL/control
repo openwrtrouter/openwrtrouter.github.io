@@ -1,0 +1,13 @@
+Package: ppp
+Version: 2.4.8.git-2020-09-04-6
+Depends: libc, kmod-ppp, libpthread, shellsync, kmod-mppe
+Source: package/network/services/ppp
+SourceName: ppp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1623666608
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 122398
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.

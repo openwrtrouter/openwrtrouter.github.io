@@ -1,0 +1,11 @@
+Package: luci-mod-admin-full
+Version: git-21.280.14233-9b796b1-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1633579033
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81063
+Description:  LuCI Administration - full-featured for full control

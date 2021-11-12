@@ -1,0 +1,14 @@
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: package/lean/helloworld/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1636636149
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27098
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.

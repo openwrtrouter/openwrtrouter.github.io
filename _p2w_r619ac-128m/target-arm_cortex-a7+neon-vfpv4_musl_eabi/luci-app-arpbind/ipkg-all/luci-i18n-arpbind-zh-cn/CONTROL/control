@@ -1,0 +1,10 @@
+Package: luci-i18n-arpbind-zh-cn
+Version: 1-3
+Depends: libc, luci-app-arpbind
+Source: package/lean/luci-app-arpbind
+SourceName: luci-i18n-arpbind-zh-cn
+Section: luci
+SourceDateEpoch: 1626401373
+Architecture: all
+Installed-Size: 618
+Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)

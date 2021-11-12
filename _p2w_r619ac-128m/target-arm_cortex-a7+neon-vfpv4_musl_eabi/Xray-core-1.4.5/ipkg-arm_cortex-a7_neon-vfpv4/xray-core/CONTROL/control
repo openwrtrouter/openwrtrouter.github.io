@@ -1,0 +1,14 @@
+Package: xray-core
+Version: 1.4.5-1
+Depends: libc, ca-bundle
+Source: package/lean/helloworld/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1636636149
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3841484
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.

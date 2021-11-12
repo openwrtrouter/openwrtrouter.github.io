@@ -1,0 +1,12 @@
+Package: iw
+Version: 5.9-8fab0c9e-8
+Depends: libc, libnl-tiny1
+Source: package/network/utils/iw
+SourceName: iw
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1623751087
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43585
+Description:  cfg80211 interface configuration utility

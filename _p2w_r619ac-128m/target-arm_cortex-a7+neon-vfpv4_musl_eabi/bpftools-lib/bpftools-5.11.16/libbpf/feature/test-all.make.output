@@ -1,0 +1,8 @@
+<command-line>: error: "_FORTIFY_SOURCE" redefined [-Werror]
+<command-line>: note: this is the location of the previous definition
+In file included from test-all.c:14:
+test-libpython.c:2:10: fatal error: Python.h: No such file or directory
+ #include <Python.h>
+          ^~~~~~~~~~
+cc1: all warnings being treated as errors
+compilation terminated.

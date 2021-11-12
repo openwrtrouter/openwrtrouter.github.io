@@ -1,0 +1,10 @@
+Package: luci-i18n-ramfree-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-ramfree
+Source: package/lean/luci-app-ramfree
+SourceName: luci-i18n-ramfree-zh-cn
+Section: luci
+SourceDateEpoch: 1618822324
+Architecture: all
+Installed-Size: 426
+Description:  Translation for luci-app-ramfree - 简体中文 (Simplified Chinese)

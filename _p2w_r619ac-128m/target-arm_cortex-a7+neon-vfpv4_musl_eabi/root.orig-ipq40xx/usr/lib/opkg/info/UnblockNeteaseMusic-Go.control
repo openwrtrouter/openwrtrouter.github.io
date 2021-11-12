@@ -1,0 +1,12 @@
+Package: UnblockNeteaseMusic-Go
+Version: 0.2.13-1
+Depends: libc
+Source: package/lean/UnblockNeteaseMusic-Go
+SourceName: UnblockNeteaseMusic-Go
+License: GPL-3.0
+Section: multimedia
+SourceDateEpoch: 1636203171
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2253922
+Description:  Revive Netease Cloud Music (Golang)

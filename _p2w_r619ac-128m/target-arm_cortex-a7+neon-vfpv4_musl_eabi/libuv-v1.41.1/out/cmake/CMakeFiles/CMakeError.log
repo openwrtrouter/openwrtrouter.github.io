@@ -1,0 +1,156 @@
+Performing C SOURCE FILE Test UV_LINT_W4 failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_809c1 && [1/2] Building C object CMakeFiles/cmTC_809c1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_809c1.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_W4  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /W4 -o CMakeFiles/cmTC_809c1.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /W4: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b0c42 && [1/2] Building C object CMakeFiles/cmTC_b0c42.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b0c42.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_UNUSED_PARAMETER_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4100 -o CMakeFiles/cmTC_b0c42.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4100: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fd61d && [1/2] Building C object CMakeFiles/cmTC_fd61d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fd61d.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4127 -o CMakeFiles/cmTC_fd61d.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4127: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c0e30 && [1/2] Building C object CMakeFiles/cmTC_c0e30.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c0e30.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_NONSTANDARD_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4201 -o CMakeFiles/cmTC_c0e30.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4201: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_becb8 && [1/2] Building C object CMakeFiles/cmTC_becb8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_becb8.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4206 -o CMakeFiles/cmTC_becb8.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4206: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_03e9f && [1/2] Building C object CMakeFiles/cmTC_03e9f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_03e9f.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4210 -o CMakeFiles/cmTC_03e9f.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4210: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2b91c && [1/2] Building C object CMakeFiles/cmTC_2b91c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2b91c.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4232 -o CMakeFiles/cmTC_2b91c.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4232: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_80e01 && [1/2] Building C object CMakeFiles/cmTC_80e01.dir/src.c.o
+FAILED: CMakeFiles/cmTC_80e01.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_HIDES_LOCAL  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4456 -o CMakeFiles/cmTC_80e01.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4456: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ab028 && [1/2] Building C object CMakeFiles/cmTC_ab028.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ab028.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_HIDES_PARAM  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4457 -o CMakeFiles/cmTC_ab028.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4457: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_83f0d && [1/2] Building C object CMakeFiles/cmTC_83f0d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_83f0d.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_HIDES_GLOBAL  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4459 -o CMakeFiles/cmTC_83f0d.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4459: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_96a93 && [1/2] Building C object CMakeFiles/cmTC_96a93.dir/src.c.o
+FAILED: CMakeFiles/cmTC_96a93.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4706 -o CMakeFiles/cmTC_96a93.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4706: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_8cf12 && [1/2] Building C object CMakeFiles/cmTC_8cf12.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8cf12.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_NO_UNSAFE_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /wd4996 -o CMakeFiles/cmTC_8cf12.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /wd4996: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2ccd1 && [1/2] Building C object CMakeFiles/cmTC_2ccd1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2ccd1.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DUV_LINT_UTF8_MSVC  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1=libuv-v1.41.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro    /utf-8 -o CMakeFiles/cmTC_2ccd1.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/libuv-v1.41.1/out/cmake/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc: error: /utf-8: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }

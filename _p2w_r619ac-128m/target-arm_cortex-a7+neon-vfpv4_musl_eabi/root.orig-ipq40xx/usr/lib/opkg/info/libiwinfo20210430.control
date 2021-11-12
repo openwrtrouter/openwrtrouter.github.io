@@ -1,0 +1,15 @@
+Package: libiwinfo20210430
+Version: 2021-06-28-c9b1672f-3
+Depends: libc, libnl-tiny1, libuci20130104, libubus20210603
+Provides: libiwinfo
+Source: package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: libs
+SourceDateEpoch: 1627721286
+ABIVersion: 20210430
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28045
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ nl80211 and wext driver interfaces.

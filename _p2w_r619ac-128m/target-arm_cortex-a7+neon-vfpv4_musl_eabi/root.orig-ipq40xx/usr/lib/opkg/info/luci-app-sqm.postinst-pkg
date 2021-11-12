@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/50-luci-sqm) && rm -f /etc/uci-defaults/50-luci-sqm
+	exit 0
+}

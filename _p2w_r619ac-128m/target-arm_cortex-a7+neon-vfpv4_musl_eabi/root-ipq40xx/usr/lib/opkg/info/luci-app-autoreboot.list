@@ -1,0 +1,4 @@
+/usr/lib/lua/luci/controller/autoreboot.lua
+/usr/lib/lua/luci/model/cbi/autoreboot.lua
+/etc/init.d/autoreboot
+/etc/config/autoreboot

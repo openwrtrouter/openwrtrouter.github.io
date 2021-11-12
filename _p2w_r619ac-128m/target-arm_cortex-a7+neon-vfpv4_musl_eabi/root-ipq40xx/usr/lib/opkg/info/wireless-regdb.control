@@ -1,0 +1,11 @@
+Package: wireless-regdb
+Version: 2021.04.21-2
+Depends: libc
+Source: package/firmware/wireless-regdb
+SourceName: wireless-regdb
+Section: firmware
+SourceDateEpoch: 1625826621
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: all
+Installed-Size: 1970
+Description:  Wireless Regulatory Database

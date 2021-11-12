@@ -1,0 +1,12 @@
+Package: luci-app-turboacc
+Version: git-21.316.30950-49f9438-13
+Depends: libc, pdnsd-alt, kmod-tcp-bbr, kmod-shortcut-fe-cm
+Source: package/lean/luci-app-turboacc
+SourceName: luci-app-turboacc
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1633940103
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 6431
+Description:  LuCI support for Flow Offload / Shortcut-FE

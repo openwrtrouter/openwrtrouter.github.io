@@ -1,0 +1,11 @@
+Package: kernel
+Version: 5.4.158-1-ce66502c13f8ba9f047f016cd6ac6c01
+Depends: libc
+Source: package/kernel/linux
+SourceName: kernel
+License: GPL-2.0
+Section: sys
+SourceDateEpoch: 1634117351
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Description:  Virtual kernel package

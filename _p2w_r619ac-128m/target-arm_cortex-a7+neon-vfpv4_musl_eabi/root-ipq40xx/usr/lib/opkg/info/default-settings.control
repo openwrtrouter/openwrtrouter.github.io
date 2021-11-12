@@ -1,0 +1,12 @@
+Package: default-settings
+Version: 2-21
+Depends: libc, luci-base, luci
+Source: package/lean/default-settings
+SourceName: default-settings
+License: GPLv3
+LicenseFiles: LICENSE
+Section: luci
+SourceDateEpoch: 1635751099
+Architecture: all
+Installed-Size: 1992
+Description:  Language Support Packages.

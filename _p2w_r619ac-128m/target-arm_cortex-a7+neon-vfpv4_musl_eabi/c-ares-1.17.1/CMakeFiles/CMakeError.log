@@ -1,0 +1,718 @@
+Determining if the function res_servicename exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_1f055 && [1/2] Building C object CMakeFiles/cmTC_1f055.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1f055
+FAILED: cmTC_1f055 
+: && /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=res_servicename -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_1f055.dir/CheckFunctionExists.c.o -o cmTC_1f055   && :
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/ld: CMakeFiles/cmTC_1f055.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `res_servicename'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_c1467 && [1/2] Building C object CMakeFiles/cmTC_c1467.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c1467
+FAILED: cmTC_c1467 
+: && /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=res_servicename -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_c1467.dir/CheckFunctionExists.c.o -o cmTC_c1467  -lresolv && :
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/ld: CMakeFiles/cmTC_c1467.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `res_servicename'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_f6c8c && [1/2] Building C object CMakeFiles/cmTC_f6c8c.dir/HAVE_SOCKET_H.c.o
+FAILED: CMakeFiles/cmTC_f6c8c.dir/HAVE_SOCKET_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_f6c8c.dir/HAVE_SOCKET_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c:2:10: fatal error: socket.h: No such file or directory
+ #include <socket.h>
+          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_fd79e && [1/2] Building C object CMakeFiles/cmTC_fd79e.dir/HAVE_WINSOCK2_H.c.o
+FAILED: CMakeFiles/cmTC_fd79e.dir/HAVE_WINSOCK2_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_fd79e.dir/HAVE_WINSOCK2_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_b778c && [1/2] Building C object CMakeFiles/cmTC_b778c.dir/HAVE_WS2TCPIP_H.c.o
+FAILED: CMakeFiles/cmTC_b778c.dir/HAVE_WS2TCPIP_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_b778c.dir/HAVE_WS2TCPIP_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ee514 && [1/2] Building C object CMakeFiles/cmTC_ee514.dir/HAVE_WINSOCK_H.c.o
+FAILED: CMakeFiles/cmTC_ee514.dir/HAVE_WINSOCK_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_ee514.dir/HAVE_WINSOCK_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c:2:10: fatal error: winsock.h: No such file or directory
+ #include <winsock.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6c32e && [1/2] Building C object CMakeFiles/cmTC_6c32e.dir/HAVE_WINDOWS_H.c.o
+FAILED: CMakeFiles/cmTC_6c32e.dir/HAVE_WINDOWS_H.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_6c32e.dir/HAVE_WINDOWS_H.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d46c3 && [1/2] Building C object CMakeFiles/cmTC_d46c3.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d46c3.dir/src.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -DHAVE_TYPE_SOCKET -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_d46c3.dir/src.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/src.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/src.c:26:4: error: unknown type name 'SOCKET'
+    SOCKET var_exists;
+    ^~~~~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_5e1f7 && [1/2] Building C object CMakeFiles/cmTC_5e1f7.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_5e1f7.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_5e1f7.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'SO_NONBLOCK' undeclared (first use in this function); did you mean 'O_NONBLOCK'?
+   return ((int*)(&SO_NONBLOCK))[argc];
+                   ^~~~~~~~~~~
+                   O_NONBLOCK
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2667d && [1/2] Building C object CMakeFiles/cmTC_2667d.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2667d.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_2667d.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'bitncmp' undeclared (first use in this function); did you mean 'bcmp'?
+   return ((int*)(&bitncmp))[argc];
+                   ^~~~~~~
+                   bcmp
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closesocket exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_a2379 && [1/2] Building C object CMakeFiles/cmTC_a2379.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_a2379.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_a2379.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'closesocket' undeclared (first use in this function); did you mean 'socket'?
+   return ((int*)(&closesocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_42b37 && [1/2] Building C object CMakeFiles/cmTC_42b37.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_42b37.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_42b37.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'CloseSocket' undeclared (first use in this function); did you mean 'socket'?
+   return ((int*)(&CloseSocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d7421 && [1/2] Building C object CMakeFiles/cmTC_d7421.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d7421.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_d7421.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'inet_net_pton' undeclared (first use in this function); did you mean 'inet_netof'?
+   return ((int*)(&inet_net_pton))[argc];
+                   ^~~~~~~~~~~~~
+                   inet_netof
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e11af && [1/2] Building C object CMakeFiles/cmTC_e11af.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e11af.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_e11af.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'ioctlsocket' undeclared (first use in this function); did you mean 'socket'?
+   return ((int*)(&ioctlsocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_d5a0e && [1/2] Building C object CMakeFiles/cmTC_d5a0e.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d5a0e.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_d5a0e.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'IoctlSocket' undeclared (first use in this function); did you mean 'clock_t'?
+   return ((int*)(&IoctlSocket))[argc];
+                   ^~~~~~~~~~~
+                   clock_t
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_14ce4 && [1/2] Building C object CMakeFiles/cmTC_14ce4.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_14ce4.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_14ce4.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strcmpi' undeclared (first use in this function); did you mean 'strcmp'?
+   return ((int*)(&strcmpi))[argc];
+                   ^~~~~~~
+                   strcmp
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the stricmp exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_2ad5d && [1/2] Building C object CMakeFiles/cmTC_2ad5d.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2ad5d.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_2ad5d.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'stricmp' undeclared (first use in this function); did you mean 'strncmp'?
+   return ((int*)(&stricmp))[argc];
+                   ^~~~~~~
+                   strncmp
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_6dc42 && [1/2] Building C object CMakeFiles/cmTC_6dc42.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_6dc42.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_6dc42.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strncmpi' undeclared (first use in this function); did you mean 'strncmp'?
+   return ((int*)(&strncmpi))[argc];
+                   ^~~~~~~~
+                   strncmp
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_ea186 && [1/2] Building C object CMakeFiles/cmTC_ea186.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_ea186.dir/CheckSymbolExists.c.o 
+/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -o CMakeFiles/cmTC_ea186.dir/CheckSymbolExists.c.o -c /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strnicmp' undeclared (first use in this function); did you mean 'strncmp'?
+   return ((int*)(&strnicmp))[argc];
+                   ^~~~~~~~
+                   strncmp
+/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function __system_property_get exists failed with the following output:
+Change Dir: /workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/workdir/openwrt/staging_dir/host/bin/ninja cmTC_e07a9 && [1/2] Building C object CMakeFiles/cmTC_e07a9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e07a9
+FAILED: cmTC_e07a9 
+: && /workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -fmacro-prefix-map=/workdir/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/c-ares-1.17.1=c-ares-1.17.1 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -DCHECK_FUNCTION_EXISTS=__system_property_get -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/usr/lib -L/workdir/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/lib -znow -zrelro   -rdynamic CMakeFiles/cmTC_e07a9.dir/CheckFunctionExists.c.o -o cmTC_e07a9   && :
+/workdir/staging_dir/_p2w_r619ac-128m/toolchain-arm_cortex-a7+neon-vfpv4_gcc-8.4.0_musl_eabi/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/8.4.0/../../../../arm-openwrt-linux-muslgnueabi/bin/ld: CMakeFiles/cmTC_e07a9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `__system_property_get'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
